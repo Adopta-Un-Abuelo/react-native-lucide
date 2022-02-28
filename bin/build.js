@@ -7,6 +7,7 @@ const cheerio = require('cheerio');
 const prettier = require('prettier');
 
 const rootDir = path.join(__dirname, '..');
+console.log('rootDir', rootDir);
 
 glob(`${rootDir}/src/icons/**.svg`, (err, icons) => {
   fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
@@ -18,7 +19,8 @@ glob(`${rootDir}/src/icons/**.svg`, (err, icons) => {
       xmlMode: true,
     });
     const fileName = path.basename(i).replace('.svg', '.js');
-    const location = path.join(rootDir, 'src/icons', fileName);
+    const location = path.join(rootDir, 'src/lib', fileName);
+    console.log('location', location);
 
     // Because CSS does not exist on Native platforms
     // We need to duplicate the styles applied to the
@@ -147,7 +149,8 @@ glob(`${rootDir}/src/icons/**.svg`, (err, icons) => {
 
     fs.writeFileSync(location, component, 'utf-8');
 
-    const exportString = `export ${uppercamelcase(id)} from './icons/${id}';\r\n`;
+    const exportString = `export ${uppercamelcase(id)} from './lib/${id}';\r\n`;
+    console.log('exportString', exportString);
     fs.appendFileSync(path.join(rootDir, 'src', 'index.js'), exportString, 'utf-8');
   });
 });
