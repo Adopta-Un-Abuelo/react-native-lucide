@@ -28,7 +28,6 @@ const Italic = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-italic"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Italic = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-italic"
       />
       <Line
         x1="14"
@@ -56,7 +54,6 @@ const Italic = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-italic"
       />
       <Line
         x1="15"
@@ -68,7 +65,6 @@ const Italic = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-italic"
       />
     </Svg>
   );

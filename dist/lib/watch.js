@@ -33,7 +33,6 @@ var Watch = function Watch(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-watch',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var Watch = function Watch(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-watch'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '12 9 12 12 13.5 13.5',
@@ -55,17 +53,15 @@ var Watch = function Watch(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-watch'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83',
+      d: 'M16.51 17.35l-.35 3.83a2 2 0 01-2 1.82H9.83a2 2 0 01-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 019.83 1h4.35a2 2 0 012 1.82l.35 3.83',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-watch'
+      strokeLinejoin: 'round'
     })
   );
 };

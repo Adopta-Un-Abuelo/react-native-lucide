@@ -33,7 +33,6 @@ var ToggleRight = function ToggleRight(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-toggle-right',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -49,8 +48,7 @@ var ToggleRight = function ToggleRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-toggle-right'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '16',
@@ -60,8 +58,7 @@ var ToggleRight = function ToggleRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-toggle-right'
+      strokeLinejoin: 'round'
     })
   );
 };

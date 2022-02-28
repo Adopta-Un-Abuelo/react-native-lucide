@@ -28,7 +28,6 @@ const AlertOctagon = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-alert-octagon"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const AlertOctagon = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-alert-octagon"
       />
       <Line
         x1="12"
@@ -53,7 +51,6 @@ const AlertOctagon = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-alert-octagon"
       />
       <Line
         x1="12"
@@ -65,7 +62,6 @@ const AlertOctagon = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-alert-octagon"
       />
     </Svg>
   );

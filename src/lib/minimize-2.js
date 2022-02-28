@@ -28,7 +28,6 @@ const Minimize2 = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-minimize-2"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Minimize2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-minimize-2"
       />
       <Polyline
         points="20 10 14 10 14 4"
@@ -50,7 +48,6 @@ const Minimize2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-minimize-2"
       />
       <Line
         x1="14"
@@ -62,7 +59,6 @@ const Minimize2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-minimize-2"
       />
       <Line
         x1="3"
@@ -74,7 +70,6 @@ const Minimize2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-minimize-2"
       />
     </Svg>
   );

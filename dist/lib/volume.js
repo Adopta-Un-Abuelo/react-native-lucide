@@ -33,7 +33,6 @@ var Volume = function Volume(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-volume',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var Volume = function Volume(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-volume'
+      strokeLinejoin: 'round'
     })
   );
 };

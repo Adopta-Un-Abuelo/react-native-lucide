@@ -33,19 +33,17 @@ var Download = function Download(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-download',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4',
+      d: 'M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-download'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '7 10 12 15 17 10',
@@ -53,8 +51,7 @@ var Download = function Download(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-download'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -65,8 +62,7 @@ var Download = function Download(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-download'
+      strokeLinejoin: 'round'
     })
   );
 };

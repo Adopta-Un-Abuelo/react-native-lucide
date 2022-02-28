@@ -28,7 +28,6 @@ const Aperture = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-aperture"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
       <Line
         x1="14.31"
@@ -55,7 +53,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
       <Line
         x1="9.69"
@@ -67,7 +64,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
       <Line
         x1="7.38"
@@ -79,7 +75,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
       <Line
         x1="9.69"
@@ -91,7 +86,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
       <Line
         x1="14.31"
@@ -103,7 +97,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
       <Line
         x1="16.62"
@@ -115,7 +108,6 @@ const Aperture = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-aperture"
       />
     </Svg>
   );

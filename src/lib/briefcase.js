@@ -28,7 +28,6 @@ const Briefcase = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-briefcase"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,16 +45,14 @@ const Briefcase = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-briefcase"
       />
       <Path
-        d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
+        d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-briefcase"
       />
     </Svg>
   );

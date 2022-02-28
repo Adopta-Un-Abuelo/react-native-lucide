@@ -33,7 +33,6 @@ var PlusSquare = function PlusSquare(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-plus-square',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -49,8 +48,7 @@ var PlusSquare = function PlusSquare(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-plus-square'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -61,8 +59,7 @@ var PlusSquare = function PlusSquare(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-plus-square'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '8',
@@ -73,8 +70,7 @@ var PlusSquare = function PlusSquare(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-plus-square'
+      strokeLinejoin: 'round'
     })
   );
 };

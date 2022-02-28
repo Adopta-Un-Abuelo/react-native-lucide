@@ -33,7 +33,6 @@ var StopCircle = function StopCircle(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-stop-circle',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var StopCircle = function StopCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-stop-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Rect, {
       x: '9',
@@ -58,8 +56,7 @@ var StopCircle = function StopCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-stop-circle'
+      strokeLinejoin: 'round'
     })
   );
 };

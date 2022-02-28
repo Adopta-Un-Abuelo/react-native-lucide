@@ -28,7 +28,6 @@ const Loader = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-loader"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="12"
@@ -56,7 +54,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="4.93"
@@ -68,7 +65,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="16.24"
@@ -80,7 +76,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="2"
@@ -92,7 +87,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="18"
@@ -104,7 +98,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="4.93"
@@ -116,7 +109,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
       <Line
         x1="16.24"
@@ -128,7 +120,6 @@ const Loader = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-loader"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var VolumeX = function VolumeX(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-volume-x',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var VolumeX = function VolumeX(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-volume-x'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '23',
@@ -56,8 +54,7 @@ var VolumeX = function VolumeX(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-volume-x'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '17',
@@ -68,8 +65,7 @@ var VolumeX = function VolumeX(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-volume-x'
+      strokeLinejoin: 'round'
     })
   );
 };

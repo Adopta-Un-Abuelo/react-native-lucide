@@ -33,7 +33,6 @@ var Image = function Image(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-image',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -49,8 +48,7 @@ var Image = function Image(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-image'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '8.5',
@@ -60,8 +58,7 @@ var Image = function Image(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-image'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '21 15 16 10 5 21',
@@ -69,8 +66,7 @@ var Image = function Image(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-image'
+      strokeLinejoin: 'round'
     })
   );
 };

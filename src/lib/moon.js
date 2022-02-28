@@ -28,20 +28,18 @@ const Moon = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-moon"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+        d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-moon"
       />
     </Svg>
   );

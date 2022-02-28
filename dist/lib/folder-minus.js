@@ -33,19 +33,17 @@ var FolderMinus = function FolderMinus(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-folder-minus',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z',
+      d: 'M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-folder-minus'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '9',
@@ -56,8 +54,7 @@ var FolderMinus = function FolderMinus(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-folder-minus'
+      strokeLinejoin: 'round'
     })
   );
 };

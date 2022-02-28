@@ -28,7 +28,6 @@ const ArrowDown = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-arrow-down"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const ArrowDown = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-arrow-down"
       />
       <Polyline
         points="19 12 12 19 5 12"
@@ -53,7 +51,6 @@ const ArrowDown = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-arrow-down"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const PenTool = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-pen-tool"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const PenTool = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pen-tool"
       />
       <Path
         d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"
@@ -50,7 +48,6 @@ const PenTool = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pen-tool"
       />
       <Path
         d="M2 2l7.586 7.586"
@@ -59,7 +56,6 @@ const PenTool = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pen-tool"
       />
       <_Circle
         cx="11"
@@ -70,7 +66,6 @@ const PenTool = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pen-tool"
       />
     </Svg>
   );

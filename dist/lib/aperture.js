@@ -33,7 +33,6 @@ var Aperture = function Aperture(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-aperture',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '14.31',
@@ -58,8 +56,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '9.69',
@@ -70,8 +67,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '7.38',
@@ -82,8 +78,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '9.69',
@@ -94,8 +89,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '14.31',
@@ -106,8 +100,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '16.62',
@@ -118,8 +111,7 @@ var Aperture = function Aperture(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-aperture'
+      strokeLinejoin: 'round'
     })
   );
 };

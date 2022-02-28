@@ -28,7 +28,6 @@ const Scissors = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-scissors"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Scissors = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-scissors"
       />
       <_Circle
         cx="6"
@@ -54,7 +52,6 @@ const Scissors = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-scissors"
       />
       <Line
         x1="20"
@@ -66,7 +63,6 @@ const Scissors = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-scissors"
       />
       <Line
         x1="14.47"
@@ -78,7 +74,6 @@ const Scissors = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-scissors"
       />
       <Line
         x1="8.12"
@@ -90,7 +85,6 @@ const Scissors = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-scissors"
       />
     </Svg>
   );

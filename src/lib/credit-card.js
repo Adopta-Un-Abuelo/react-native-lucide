@@ -28,7 +28,6 @@ const CreditCard = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-credit-card"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const CreditCard = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-credit-card"
       />
       <Line
         x1="1"
@@ -58,7 +56,6 @@ const CreditCard = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-credit-card"
       />
     </Svg>
   );

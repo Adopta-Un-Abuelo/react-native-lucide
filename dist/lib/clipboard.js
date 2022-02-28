@@ -33,19 +33,17 @@ var Clipboard = function Clipboard(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-clipboard',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2',
+      d: 'M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-clipboard'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Rect, {
       x: '8',
@@ -58,8 +56,7 @@ var Clipboard = function Clipboard(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-clipboard'
+      strokeLinejoin: 'round'
     })
   );
 };

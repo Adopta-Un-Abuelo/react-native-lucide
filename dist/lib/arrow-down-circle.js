@@ -33,7 +33,6 @@ var ArrowDownCircle = function ArrowDownCircle(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-arrow-down-circle',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var ArrowDownCircle = function ArrowDownCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-down-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '8 12 12 16 16 12',
@@ -55,8 +53,7 @@ var ArrowDownCircle = function ArrowDownCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-down-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -67,8 +64,7 @@ var ArrowDownCircle = function ArrowDownCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-down-circle'
+      strokeLinejoin: 'round'
     })
   );
 };

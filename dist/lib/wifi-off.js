@@ -33,67 +33,60 @@ var WifiOff = function WifiOff(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-wifi-off',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '1',
-      y1: '1',
-      x2: '23',
-      y2: '23',
+      x1: '2',
+      y1: '2',
+      x2: '22',
+      y2: '22',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M16.72 11.06A10.94 10.94 0 0 1 19 12.55',
+      d: 'M8.5 16.5a5 5 0 017 0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M5 12.55a10.94 10.94 0 0 1 5.17-2.39',
+      d: 'M2 8.82a15 15 0 014.17-2.65',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M10.71 5.05A16 16 0 0 1 22.58 9',
+      d: 'M10.66 5c4.01-.36 8.14.9 11.34 3.76',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M1.42 9a15.91 15.91 0 0 1 4.7-2.88',
+      d: 'M16.85 11.25a10 10 0 012.22 1.68',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M8.53 16.11a6 6 0 0 1 6.95 0',
+      d: 'M5 13a10 10 0 015.24-2.76',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -104,8 +97,7 @@ var WifiOff = function WifiOff(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-wifi-off'
+      strokeLinejoin: 'round'
     })
   );
 };

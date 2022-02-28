@@ -28,7 +28,6 @@ const ToggleRight = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-toggle-right"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const ToggleRight = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-toggle-right"
       />
       <_Circle
         cx="16"
@@ -57,7 +55,6 @@ const ToggleRight = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-toggle-right"
       />
     </Svg>
   );

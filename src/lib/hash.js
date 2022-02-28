@@ -28,7 +28,6 @@ const Hash = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-hash"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Hash = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-hash"
       />
       <Line
         x1="4"
@@ -56,7 +54,6 @@ const Hash = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-hash"
       />
       <Line
         x1="10"
@@ -68,7 +65,6 @@ const Hash = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-hash"
       />
       <Line
         x1="16"
@@ -80,7 +76,6 @@ const Hash = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-hash"
       />
     </Svg>
   );

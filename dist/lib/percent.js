@@ -33,7 +33,6 @@ var Percent = function Percent(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-percent',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -47,8 +46,7 @@ var Percent = function Percent(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-percent'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '6.5',
@@ -58,8 +56,7 @@ var Percent = function Percent(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-percent'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '17.5',
@@ -69,8 +66,7 @@ var Percent = function Percent(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-percent'
+      strokeLinejoin: 'round'
     })
   );
 };

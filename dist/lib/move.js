@@ -33,7 +33,6 @@ var Move = function Move(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-move',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-move'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '9 5 12 2 15 5',
@@ -53,8 +51,7 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-move'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '15 19 12 22 9 19',
@@ -62,8 +59,7 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-move'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '19 9 22 12 19 15',
@@ -71,8 +67,7 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-move'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '2',
@@ -83,8 +78,7 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-move'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -95,8 +89,7 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-move'
+      strokeLinejoin: 'round'
     })
   );
 };

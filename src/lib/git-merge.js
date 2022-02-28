@@ -28,7 +28,6 @@ const GitMerge = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-git-merge"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const GitMerge = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-merge"
       />
       <_Circle
         cx="6"
@@ -54,16 +52,14 @@ const GitMerge = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-merge"
       />
       <Path
-        d="M6 21V9a9 9 0 0 0 9 9"
+        d="M6 21V9a9 9 0 009 9"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-merge"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var Scissors = function Scissors(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-scissors',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var Scissors = function Scissors(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-scissors'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '6',
@@ -57,8 +55,7 @@ var Scissors = function Scissors(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-scissors'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '20',
@@ -69,8 +66,7 @@ var Scissors = function Scissors(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-scissors'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '14.47',
@@ -81,8 +77,7 @@ var Scissors = function Scissors(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-scissors'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '8.12',
@@ -93,8 +88,7 @@ var Scissors = function Scissors(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-scissors'
+      strokeLinejoin: 'round'
     })
   );
 };

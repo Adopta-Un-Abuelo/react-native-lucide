@@ -33,7 +33,6 @@ var Video = function Video(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-video',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var Video = function Video(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-video'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Rect, {
       x: '1',
@@ -58,8 +56,7 @@ var Video = function Video(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-video'
+      strokeLinejoin: 'round'
     })
   );
 };

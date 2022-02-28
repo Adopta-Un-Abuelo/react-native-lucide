@@ -33,7 +33,6 @@ var Speaker = function Speaker(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-speaker',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -49,8 +48,7 @@ var Speaker = function Speaker(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-speaker'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '12',
@@ -60,8 +58,7 @@ var Speaker = function Speaker(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-speaker'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -72,8 +69,7 @@ var Speaker = function Speaker(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-speaker'
+      strokeLinejoin: 'round'
     })
   );
 };

@@ -28,7 +28,6 @@ const Calendar = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-calendar"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Calendar = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-calendar"
       />
       <Line
         x1="16"
@@ -58,7 +56,6 @@ const Calendar = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-calendar"
       />
       <Line
         x1="8"
@@ -70,7 +67,6 @@ const Calendar = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-calendar"
       />
       <Line
         x1="3"
@@ -82,7 +78,6 @@ const Calendar = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-calendar"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var ChevronsRight = function ChevronsRight(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-chevrons-right',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var ChevronsRight = function ChevronsRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-chevrons-right'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '6 17 11 12 6 7',
@@ -53,8 +51,7 @@ var ChevronsRight = function ChevronsRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-chevrons-right'
+      strokeLinejoin: 'round'
     })
   );
 };

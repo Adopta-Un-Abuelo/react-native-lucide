@@ -28,24 +28,11 @@ const AlignCenter = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-align-center"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
-      <Line
-        x1="18"
-        y1="10"
-        x2="6"
-        y2="10"
-        fill="none"
-        stroke={color}
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        class="feather feather-align-center"
-      />
       <Line
         x1="21"
         y1="6"
@@ -56,31 +43,28 @@ const AlignCenter = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-align-center"
       />
       <Line
-        x1="21"
-        y1="14"
-        x2="3"
-        y2="14"
+        x1="17"
+        y1="12"
+        x2="7"
+        y2="12"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-align-center"
       />
       <Line
-        x1="18"
+        x1="19"
         y1="18"
-        x2="6"
+        x2="5"
         y2="18"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-align-center"
       />
     </Svg>
   );

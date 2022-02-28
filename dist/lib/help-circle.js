@@ -33,7 +33,6 @@ var HelpCircle = function HelpCircle(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-help-circle',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,17 +45,15 @@ var HelpCircle = function HelpCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-help-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3',
+      d: 'M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-help-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -67,8 +64,7 @@ var HelpCircle = function HelpCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-help-circle'
+      strokeLinejoin: 'round'
     })
   );
 };

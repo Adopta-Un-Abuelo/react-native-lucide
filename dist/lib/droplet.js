@@ -33,19 +33,17 @@ var Droplet = function Droplet(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-droplet',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z',
+      d: 'M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 007 7z',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-droplet'
+      strokeLinejoin: 'round'
     })
   );
 };

@@ -28,7 +28,6 @@ const Server = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-server"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Server = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-server"
       />
       <Rect
         x="2"
@@ -60,7 +58,6 @@ const Server = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-server"
       />
       <Line
         x1="6"
@@ -72,7 +69,6 @@ const Server = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-server"
       />
       <Line
         x1="6"
@@ -84,7 +80,6 @@ const Server = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-server"
       />
     </Svg>
   );

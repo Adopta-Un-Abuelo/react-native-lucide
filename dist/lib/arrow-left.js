@@ -33,7 +33,6 @@ var ArrowLeft = function ArrowLeft(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-arrow-left',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -47,8 +46,7 @@ var ArrowLeft = function ArrowLeft(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-left'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '12 19 5 12 12 5',
@@ -56,8 +54,7 @@ var ArrowLeft = function ArrowLeft(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-left'
+      strokeLinejoin: 'round'
     })
   );
 };

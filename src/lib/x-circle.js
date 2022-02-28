@@ -28,7 +28,6 @@ const XCircle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-x-circle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const XCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x-circle"
       />
       <Line
         x1="15"
@@ -55,7 +53,6 @@ const XCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x-circle"
       />
       <Line
         x1="9"
@@ -67,7 +64,6 @@ const XCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x-circle"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const Volume2 = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-volume-2"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,16 +40,14 @@ const Volume2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-volume-2"
       />
       <Path
-        d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"
+        d="M19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.07"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-volume-2"
       />
     </Svg>
   );

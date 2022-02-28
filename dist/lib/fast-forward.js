@@ -33,7 +33,6 @@ var FastForward = function FastForward(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-fast-forward',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var FastForward = function FastForward(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-fast-forward'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '2 19 11 12 2 5 2 19',
@@ -53,8 +51,7 @@ var FastForward = function FastForward(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-fast-forward'
+      strokeLinejoin: 'round'
     })
   );
 };

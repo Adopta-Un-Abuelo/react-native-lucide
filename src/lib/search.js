@@ -28,7 +28,6 @@ const Search = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-search"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Search = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-search"
       />
       <Line
         x1="21"
@@ -55,7 +53,6 @@ const Search = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-search"
       />
     </Svg>
   );

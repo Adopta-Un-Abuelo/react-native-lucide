@@ -28,7 +28,6 @@ const Pause = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-pause"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Pause = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pause"
       />
       <Rect
         x="14"
@@ -56,7 +54,6 @@ const Pause = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pause"
       />
     </Svg>
   );

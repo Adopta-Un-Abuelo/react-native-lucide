@@ -33,7 +33,6 @@ var Anchor = function Anchor(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-anchor',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var Anchor = function Anchor(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-anchor'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -58,17 +56,15 @@ var Anchor = function Anchor(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-anchor'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M5 12H2a10 10 0 0 0 20 0h-3',
+      d: 'M5 12H2a10 10 0 0020 0h-3',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-anchor'
+      strokeLinejoin: 'round'
     })
   );
 };

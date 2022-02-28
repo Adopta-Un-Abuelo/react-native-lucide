@@ -28,7 +28,6 @@ const PlayCircle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-play-circle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const PlayCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-play-circle"
       />
       <Polygon
         points="10 8 16 12 10 16 10 8"
@@ -52,7 +50,6 @@ const PlayCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-play-circle"
       />
     </Svg>
   );

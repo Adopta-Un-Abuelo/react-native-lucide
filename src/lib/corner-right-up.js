@@ -28,7 +28,6 @@ const CornerRightUp = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-corner-right-up"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,16 +40,14 @@ const CornerRightUp = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-corner-right-up"
       />
       <Path
-        d="M4 20h7a4 4 0 0 0 4-4V4"
+        d="M4 20h7a4 4 0 004-4V4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-corner-right-up"
       />
     </Svg>
   );

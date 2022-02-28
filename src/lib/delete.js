@@ -28,20 +28,18 @@ const Delete = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-delete"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"
+        d="M21 4H8l-7 8 7 8h13a2 2 0 002-2V6a2 2 0 00-2-2z"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-delete"
       />
       <Line
         x1="18"
@@ -53,7 +51,6 @@ const Delete = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-delete"
       />
       <Line
         x1="12"
@@ -65,7 +62,6 @@ const Delete = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-delete"
       />
     </Svg>
   );

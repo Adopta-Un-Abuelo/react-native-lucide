@@ -33,91 +33,65 @@ var CloudSnow = function CloudSnow(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-cloud-snow',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25',
+      d: 'M20 16.2A4.5 4.5 0 0017.5 8h-1.8A7 7 0 104 14.9',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '8',
-      y1: '16',
-      x2: '8.01',
-      y2: '16',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M8 15h0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '8',
-      y1: '20',
-      x2: '8.01',
-      y2: '20',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M8 19h0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '12',
-      y1: '18',
-      x2: '12.01',
-      y2: '18',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M12 17h0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '12',
-      y1: '22',
-      x2: '12.01',
-      y2: '22',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M12 21h0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '16',
-      y1: '16',
-      x2: '16.01',
-      y2: '16',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M16 15h0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '16',
-      y1: '20',
-      x2: '16.01',
-      y2: '20',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M16 19h0',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-snow'
+      strokeLinejoin: 'round'
     })
   );
 };

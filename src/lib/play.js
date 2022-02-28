@@ -28,7 +28,6 @@ const Play = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-play"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Play = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-play"
       />
     </Svg>
   );

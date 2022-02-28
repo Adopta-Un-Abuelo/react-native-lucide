@@ -28,7 +28,6 @@ const Clock = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-clock"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Clock = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-clock"
       />
       <Polyline
         points="12 6 12 12 16 14"
@@ -52,7 +50,6 @@ const Clock = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-clock"
       />
     </Svg>
   );

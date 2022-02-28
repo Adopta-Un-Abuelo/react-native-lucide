@@ -33,7 +33,6 @@ var Gift = function Gift(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-gift',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var Gift = function Gift(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-gift'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Rect, {
       x: '2',
@@ -56,8 +54,7 @@ var Gift = function Gift(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-gift'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -68,26 +65,23 @@ var Gift = function Gift(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-gift'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z',
+      d: 'M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-gift'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z',
+      d: 'M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-gift'
+      strokeLinejoin: 'round'
     })
   );
 };

@@ -33,28 +33,25 @@ var RotateCw = function RotateCw(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-rotate-cw',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
-    _react2.default.createElement(_reactNativeSvg.Polyline, {
-      points: '23 4 23 10 17 10',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M21 2v6h-6',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-rotate-cw'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M20.49 15a9 9 0 1 1-2.12-9.36L23 10',
+      d: 'M21 13a9 9 0 11-3-7.7L21 8',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-rotate-cw'
+      strokeLinejoin: 'round'
     })
   );
 };

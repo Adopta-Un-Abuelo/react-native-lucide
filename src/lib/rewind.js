@@ -28,7 +28,6 @@ const Rewind = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-rewind"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Rewind = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-rewind"
       />
       <Polygon
         points="22 19 13 12 22 5 22 19"
@@ -50,7 +48,6 @@ const Rewind = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-rewind"
       />
     </Svg>
   );

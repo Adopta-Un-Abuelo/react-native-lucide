@@ -33,7 +33,6 @@ var TrendingUp = function TrendingUp(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-trending-up',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var TrendingUp = function TrendingUp(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-trending-up'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 6 23 6 23 12',
@@ -53,8 +51,7 @@ var TrendingUp = function TrendingUp(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-trending-up'
+      strokeLinejoin: 'round'
     })
   );
 };

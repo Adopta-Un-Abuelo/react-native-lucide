@@ -28,7 +28,6 @@ const DollarSign = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-dollar-sign"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,16 +43,14 @@ const DollarSign = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-dollar-sign"
       />
       <Path
-        d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+        d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-dollar-sign"
       />
     </Svg>
   );

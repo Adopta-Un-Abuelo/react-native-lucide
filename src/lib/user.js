@@ -28,20 +28,18 @@ const User = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-user"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+        d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-user"
       />
       <_Circle
         cx="12"
@@ -52,7 +50,6 @@ const User = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-user"
       />
     </Svg>
   );

@@ -33,40 +33,33 @@ var DownloadCloud = function DownloadCloud(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-download-cloud',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
-    _react2.default.createElement(_reactNativeSvg.Polyline, {
-      points: '8 17 12 21 16 17',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M20 16.2A4.5 4.5 0 0017.5 8h-1.8A7 7 0 104 14.9',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-download-cloud'
-    }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '12',
-      y1: '12',
-      x2: '12',
-      y2: '21',
-      fill: 'none',
-      stroke: color,
-      strokeWidth: '2',
-      strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-download-cloud'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29',
+      d: 'M12 12v9',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-download-cloud'
+      strokeLinejoin: 'round'
+    }),
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M8 17l4 4 4-4',
+      fill: 'none',
+      stroke: color,
+      strokeWidth: '2',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
     })
   );
 };

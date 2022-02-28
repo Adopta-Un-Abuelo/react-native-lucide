@@ -33,7 +33,6 @@ var ArrowUpCircle = function ArrowUpCircle(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-arrow-up-circle',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var ArrowUpCircle = function ArrowUpCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-up-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '16 12 12 8 8 12',
@@ -55,8 +53,7 @@ var ArrowUpCircle = function ArrowUpCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-up-circle'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '12',
@@ -67,8 +64,7 @@ var ArrowUpCircle = function ArrowUpCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-arrow-up-circle'
+      strokeLinejoin: 'round'
     })
   );
 };

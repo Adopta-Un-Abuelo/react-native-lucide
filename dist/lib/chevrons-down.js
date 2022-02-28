@@ -33,7 +33,6 @@ var ChevronsDown = function ChevronsDown(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-chevrons-down',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var ChevronsDown = function ChevronsDown(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-chevrons-down'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '7 6 12 11 17 6',
@@ -53,8 +51,7 @@ var ChevronsDown = function ChevronsDown(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-chevrons-down'
+      strokeLinejoin: 'round'
     })
   );
 };

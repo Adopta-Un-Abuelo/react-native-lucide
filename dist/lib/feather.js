@@ -33,19 +33,17 @@ var Feather = function Feather(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-feather',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z',
+      d: 'M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-feather'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '16',
@@ -56,8 +54,7 @@ var Feather = function Feather(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-feather'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '17.5',
@@ -68,8 +65,7 @@ var Feather = function Feather(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-feather'
+      strokeLinejoin: 'round'
     })
   );
 };

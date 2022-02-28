@@ -33,19 +33,17 @@ var Umbrella = function Umbrella(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-umbrella',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7',
+      d: 'M23 12a11.05 11.05 0 00-22 0zm-5 7a3 3 0 01-6 0v-7',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-umbrella'
+      strokeLinejoin: 'round'
     })
   );
 };

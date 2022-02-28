@@ -28,7 +28,6 @@ const Percent = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-percent"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Percent = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-percent"
       />
       <_Circle
         cx="6.5"
@@ -55,7 +53,6 @@ const Percent = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-percent"
       />
       <_Circle
         cx="17.5"
@@ -66,7 +63,6 @@ const Percent = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-percent"
       />
     </Svg>
   );

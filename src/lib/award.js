@@ -28,7 +28,6 @@ const Award = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-award"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Award = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-award"
       />
       <Polyline
         points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
@@ -52,7 +50,6 @@ const Award = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-award"
       />
     </Svg>
   );

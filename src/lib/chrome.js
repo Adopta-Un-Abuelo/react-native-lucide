@@ -28,7 +28,6 @@ const Chrome = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-chrome"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Chrome = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chrome"
       />
       <_Circle
         cx="12"
@@ -54,7 +52,6 @@ const Chrome = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chrome"
       />
       <Line
         x1="21.17"
@@ -66,7 +63,6 @@ const Chrome = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chrome"
       />
       <Line
         x1="3.95"
@@ -78,7 +74,6 @@ const Chrome = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chrome"
       />
       <Line
         x1="10.88"
@@ -90,7 +85,6 @@ const Chrome = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chrome"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const Shuffle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-shuffle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Shuffle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shuffle"
       />
       <Line
         x1="4"
@@ -53,7 +51,6 @@ const Shuffle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shuffle"
       />
       <Polyline
         points="21 16 21 21 16 21"
@@ -62,7 +59,6 @@ const Shuffle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shuffle"
       />
       <Line
         x1="15"
@@ -74,7 +70,6 @@ const Shuffle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shuffle"
       />
       <Line
         x1="4"
@@ -86,7 +81,6 @@ const Shuffle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shuffle"
       />
     </Svg>
   );

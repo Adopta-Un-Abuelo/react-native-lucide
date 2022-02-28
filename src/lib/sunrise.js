@@ -28,101 +28,74 @@ const Sunrise = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-sunrise"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M17 18a5 5 0 0 0-10 0"
+        d="M12 2v8"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Line
-        x1="12"
-        y1="2"
-        x2="12"
-        y2="9"
+      <Path
+        d="M5.2 11.2l1.4 1.4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Line
-        x1="4.22"
-        y1="10.22"
-        x2="5.64"
-        y2="11.64"
+      <Path
+        d="M2 18h2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Line
-        x1="1"
-        y1="18"
-        x2="3"
-        y2="18"
+      <Path
+        d="M20 18h2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Line
-        x1="21"
-        y1="18"
-        x2="23"
-        y2="18"
+      <Path
+        d="M17.4 12.6l1.4-1.4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Line
-        x1="18.36"
-        y1="11.64"
-        x2="19.78"
-        y2="10.22"
+      <Path
+        d="M22 22H2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Line
-        x1="23"
-        y1="22"
-        x2="1"
-        y2="22"
+      <Path
+        d="M8 6l4-4 4 4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
-      <Polyline
-        points="8 6 12 2 16 6"
+      <Path
+        d="M16 18a4 4 0 00-8 0"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sunrise"
       />
     </Svg>
   );

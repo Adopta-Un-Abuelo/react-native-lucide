@@ -33,28 +33,25 @@ var PieChart = function PieChart(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-pie-chart',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M21.21 15.89A10 10 0 1 1 8 2.83',
+      d: 'M21.21 15.89A10 10 0 118 2.83',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-pie-chart'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M22 12A10 10 0 0 0 12 2v10z',
+      d: 'M22 12A10 10 0 0012 2v10z',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-pie-chart'
+      strokeLinejoin: 'round'
     })
   );
 };

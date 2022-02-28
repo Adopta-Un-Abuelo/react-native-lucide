@@ -28,7 +28,6 @@ const TrendingDown = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-trending-down"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const TrendingDown = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-trending-down"
       />
       <Polyline
         points="17 18 23 18 23 12"
@@ -50,7 +48,6 @@ const TrendingDown = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-trending-down"
       />
     </Svg>
   );

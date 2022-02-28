@@ -28,7 +28,6 @@ const SkipBack = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-skip-back"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const SkipBack = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-skip-back"
       />
       <Line
         x1="5"
@@ -53,7 +51,6 @@ const SkipBack = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-skip-back"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const XOctagon = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-x-octagon"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const XOctagon = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x-octagon"
       />
       <Line
         x1="15"
@@ -53,7 +51,6 @@ const XOctagon = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x-octagon"
       />
       <Line
         x1="9"
@@ -65,7 +62,6 @@ const XOctagon = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x-octagon"
       />
     </Svg>
   );

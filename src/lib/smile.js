@@ -28,7 +28,6 @@ const Smile = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-smile"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Smile = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-smile"
       />
       <Path
         d="M8 14s1.5 2 4 2 4-2 4-2"
@@ -52,7 +50,6 @@ const Smile = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-smile"
       />
       <Line
         x1="9"
@@ -64,7 +61,6 @@ const Smile = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-smile"
       />
       <Line
         x1="15"
@@ -76,7 +72,6 @@ const Smile = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-smile"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const X = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-x"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const X = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x"
       />
       <Line
         x1="6"
@@ -56,7 +54,6 @@ const X = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-x"
       />
     </Svg>
   );

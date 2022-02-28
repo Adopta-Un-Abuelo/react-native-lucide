@@ -28,7 +28,6 @@ const Terminal = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-terminal"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Terminal = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-terminal"
       />
       <Line
         x1="12"
@@ -53,7 +51,6 @@ const Terminal = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-terminal"
       />
     </Svg>
   );

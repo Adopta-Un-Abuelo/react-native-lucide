@@ -28,17 +28,16 @@ const Battery = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-battery"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Rect
-        x="1"
-        y="6"
-        width="18"
-        height="12"
+        x="2"
+        y="7"
+        width="16"
+        height="10"
         rx="2"
         ry="2"
         fill="none"
@@ -46,19 +45,17 @@ const Battery = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-battery"
       />
       <Line
-        x1="23"
-        y1="13"
-        x2="23"
-        y2="11"
+        x1="22"
+        x2="22"
+        y1="11"
+        y2="13"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-battery"
       />
     </Svg>
   );

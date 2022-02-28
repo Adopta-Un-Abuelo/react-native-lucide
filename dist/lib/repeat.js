@@ -33,46 +33,41 @@ var Repeat = function Repeat(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-repeat',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
-    _react2.default.createElement(_reactNativeSvg.Polyline, {
-      points: '17 1 21 5 17 9',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M17 2l4 4-4 4',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-repeat'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M3 11V9a4 4 0 0 1 4-4h14',
+      d: 'M3 11v-1a4 4 0 014-4h14',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-repeat'
-    }),
-    _react2.default.createElement(_reactNativeSvg.Polyline, {
-      points: '7 23 3 19 7 15',
-      fill: 'none',
-      stroke: color,
-      strokeWidth: '2',
-      strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-repeat'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M21 13v2a4 4 0 0 1-4 4H3',
+      d: 'M7 22l-4-4 4-4',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-repeat'
+      strokeLinejoin: 'round'
+    }),
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M21 13v1a4 4 0 01-4 4H3',
+      fill: 'none',
+      stroke: color,
+      strokeWidth: '2',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
     })
   );
 };

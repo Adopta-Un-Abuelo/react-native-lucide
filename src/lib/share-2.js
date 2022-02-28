@@ -28,7 +28,6 @@ const Share2 = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-share-2"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Share2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share-2"
       />
       <_Circle
         cx="6"
@@ -54,7 +52,6 @@ const Share2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share-2"
       />
       <_Circle
         cx="18"
@@ -65,7 +62,6 @@ const Share2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share-2"
       />
       <Line
         x1="8.59"
@@ -77,7 +73,6 @@ const Share2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share-2"
       />
       <Line
         x1="15.41"
@@ -89,7 +84,6 @@ const Share2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share-2"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const BarChart2 = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-bar-chart-2"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const BarChart2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-bar-chart-2"
       />
       <Line
         x1="12"
@@ -56,7 +54,6 @@ const BarChart2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-bar-chart-2"
       />
       <Line
         x1="6"
@@ -68,7 +65,6 @@ const BarChart2 = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-bar-chart-2"
       />
     </Svg>
   );

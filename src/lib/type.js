@@ -28,7 +28,6 @@ const Type = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-type"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Type = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-type"
       />
       <Line
         x1="9"
@@ -53,7 +51,6 @@ const Type = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-type"
       />
       <Line
         x1="12"
@@ -65,7 +62,6 @@ const Type = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-type"
       />
     </Svg>
   );

@@ -28,32 +28,34 @@ const CloudOff = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-cloud-off"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M22.61 16.95A5 5 0 0 0 18 10h-1.26a8 8 0 0 0-7.05-6M5 5a8 8 0 0 0 4 15h9a5 5 0 0 0 1.7-.3"
+        d="M2 2l20 20"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cloud-off"
       />
-      <Line
-        x1="1"
-        y1="1"
-        x2="23"
-        y2="23"
+      <Path
+        d="M10 5a7 7 0 015.7 5h1.8a4.5 4.5 0 014 6.5"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cloud-off"
+      />
+      <Path
+        d="M18.8 18.8c-.4.2-.8.2-1.3.2H9A7 7 0 015.8 5.8"
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </Svg>
   );

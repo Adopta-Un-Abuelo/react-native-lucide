@@ -33,19 +33,17 @@ var Bluetooth = function Bluetooth(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-bluetooth',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
-    _react2.default.createElement(_reactNativeSvg.Polyline, {
-      points: '6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M7 7l10 10-5 5V2l5 5L7 17',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-bluetooth'
+      strokeLinejoin: 'round'
     })
   );
 };

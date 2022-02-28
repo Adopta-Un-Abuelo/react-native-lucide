@@ -28,7 +28,6 @@ const PauseCircle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-pause-circle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const PauseCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pause-circle"
       />
       <Line
         x1="10"
@@ -55,7 +53,6 @@ const PauseCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pause-circle"
       />
       <Line
         x1="14"
@@ -67,7 +64,6 @@ const PauseCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-pause-circle"
       />
     </Svg>
   );

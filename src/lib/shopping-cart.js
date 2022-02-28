@@ -28,7 +28,6 @@ const ShoppingCart = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-shopping-cart"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const ShoppingCart = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shopping-cart"
       />
       <_Circle
         cx="20"
@@ -54,16 +52,14 @@ const ShoppingCart = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shopping-cart"
       />
       <Path
-        d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+        d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shopping-cart"
       />
     </Svg>
   );

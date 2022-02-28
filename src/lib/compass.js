@@ -28,7 +28,6 @@ const Compass = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-compass"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Compass = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-compass"
       />
       <Polygon
         points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"
@@ -52,7 +50,6 @@ const Compass = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-compass"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const Music = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-music"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Music = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-music"
       />
       <_Circle
         cx="6"
@@ -52,7 +50,6 @@ const Music = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-music"
       />
       <_Circle
         cx="18"
@@ -63,7 +60,6 @@ const Music = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-music"
       />
     </Svg>
   );

@@ -28,29 +28,26 @@ const BookOpen = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-book-open"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"
+        d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-book-open"
       />
       <Path
-        d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+        d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-book-open"
       />
     </Svg>
   );

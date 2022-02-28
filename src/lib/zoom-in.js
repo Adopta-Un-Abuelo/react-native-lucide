@@ -28,7 +28,6 @@ const ZoomIn = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-zoom-in"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const ZoomIn = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-zoom-in"
       />
       <Line
         x1="21"
@@ -55,7 +53,6 @@ const ZoomIn = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-zoom-in"
       />
       <Line
         x1="11"
@@ -67,7 +64,6 @@ const ZoomIn = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-zoom-in"
       />
       <Line
         x1="8"
@@ -79,7 +75,6 @@ const ZoomIn = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-zoom-in"
       />
     </Svg>
   );

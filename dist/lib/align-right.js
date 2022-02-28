@@ -33,23 +33,10 @@ var AlignRight = function AlignRight(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-align-right',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '21',
-      y1: '10',
-      x2: '7',
-      y2: '10',
-      fill: 'none',
-      stroke: color,
-      strokeWidth: '2',
-      strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-align-right'
-    }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '21',
       y1: '6',
@@ -59,20 +46,18 @@ var AlignRight = function AlignRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-align-right'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '21',
-      y1: '14',
-      x2: '3',
-      y2: '14',
+      y1: '12',
+      x2: '9',
+      y2: '12',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-align-right'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '21',
@@ -83,8 +68,7 @@ var AlignRight = function AlignRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-align-right'
+      strokeLinejoin: 'round'
     })
   );
 };

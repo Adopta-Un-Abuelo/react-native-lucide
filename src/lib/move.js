@@ -28,7 +28,6 @@ const Move = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-move"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Move = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-move"
       />
       <Polyline
         points="9 5 12 2 15 5"
@@ -50,7 +48,6 @@ const Move = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-move"
       />
       <Polyline
         points="15 19 12 22 9 19"
@@ -59,7 +56,6 @@ const Move = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-move"
       />
       <Polyline
         points="19 9 22 12 19 15"
@@ -68,7 +64,6 @@ const Move = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-move"
       />
       <Line
         x1="2"
@@ -80,7 +75,6 @@ const Move = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-move"
       />
       <Line
         x1="12"
@@ -92,7 +86,6 @@ const Move = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-move"
       />
     </Svg>
   );

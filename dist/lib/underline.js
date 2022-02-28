@@ -33,31 +33,28 @@ var Underline = function Underline(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-underline',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M6 3v7a6 6 0 0 0 6 6 6 6 0 0 0 6-6V3',
+      d: 'M6 4v6a6 6 0 0012 0V4',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-underline'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '4',
-      y1: '21',
+      y1: '20',
       x2: '20',
-      y2: '21',
+      y2: '20',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-underline'
+      strokeLinejoin: 'round'
     })
   );
 };

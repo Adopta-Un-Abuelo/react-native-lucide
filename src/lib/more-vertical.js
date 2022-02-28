@@ -28,7 +28,6 @@ const MoreVertical = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-more-vertical"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const MoreVertical = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-more-vertical"
       />
       <_Circle
         cx="12"
@@ -54,7 +52,6 @@ const MoreVertical = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-more-vertical"
       />
       <_Circle
         cx="12"
@@ -65,7 +62,6 @@ const MoreVertical = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-more-vertical"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var ChevronDown = function ChevronDown(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-chevron-down',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var ChevronDown = function ChevronDown(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-chevron-down'
+      strokeLinejoin: 'round'
     })
   );
 };

@@ -28,20 +28,18 @@ const UserPlus = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-user-plus"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+        d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-user-plus"
       />
       <_Circle
         cx="8.5"
@@ -52,7 +50,6 @@ const UserPlus = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-user-plus"
       />
       <Line
         x1="20"
@@ -64,7 +61,6 @@ const UserPlus = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-user-plus"
       />
       <Line
         x1="23"
@@ -76,7 +72,6 @@ const UserPlus = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-user-plus"
       />
     </Svg>
   );

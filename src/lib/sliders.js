@@ -28,7 +28,6 @@ const Sliders = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-sliders"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="4"
@@ -56,7 +54,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="12"
@@ -68,7 +65,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="12"
@@ -80,7 +76,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="20"
@@ -92,7 +87,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="20"
@@ -104,7 +98,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="1"
@@ -116,7 +109,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="9"
@@ -128,7 +120,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
       <Line
         x1="17"
@@ -140,7 +131,6 @@ const Sliders = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sliders"
       />
     </Svg>
   );

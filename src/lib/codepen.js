@@ -28,7 +28,6 @@ const Codepen = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-codepen"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Codepen = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-codepen"
       />
       <Line
         x1="12"
@@ -53,7 +51,6 @@ const Codepen = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-codepen"
       />
       <Polyline
         points="22 8.5 12 15.5 2 8.5"
@@ -62,7 +59,6 @@ const Codepen = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-codepen"
       />
       <Polyline
         points="2 15.5 12 8.5 22 15.5"
@@ -71,7 +67,6 @@ const Codepen = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-codepen"
       />
       <Line
         x1="12"
@@ -83,7 +78,6 @@ const Codepen = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-codepen"
       />
     </Svg>
   );

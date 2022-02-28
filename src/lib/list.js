@@ -28,7 +28,6 @@ const List = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-list"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const List = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-list"
       />
       <Line
         x1="8"
@@ -56,7 +54,6 @@ const List = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-list"
       />
       <Line
         x1="8"
@@ -68,7 +65,6 @@ const List = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-list"
       />
       <Line
         x1="3"
@@ -80,7 +76,6 @@ const List = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-list"
       />
       <Line
         x1="3"
@@ -92,7 +87,6 @@ const List = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-list"
       />
       <Line
         x1="3"
@@ -104,7 +98,6 @@ const List = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-list"
       />
     </Svg>
   );

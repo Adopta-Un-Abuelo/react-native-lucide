@@ -28,20 +28,18 @@ const Share = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-share"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"
+        d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share"
       />
       <Polyline
         points="16 6 12 2 8 6"
@@ -50,7 +48,6 @@ const Share = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share"
       />
       <Line
         x1="12"
@@ -62,7 +59,6 @@ const Share = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-share"
       />
     </Svg>
   );

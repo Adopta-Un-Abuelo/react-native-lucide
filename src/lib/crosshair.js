@@ -28,7 +28,6 @@ const Crosshair = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-crosshair"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Crosshair = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-crosshair"
       />
       <Line
         x1="22"
@@ -55,7 +53,6 @@ const Crosshair = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-crosshair"
       />
       <Line
         x1="6"
@@ -67,7 +64,6 @@ const Crosshair = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-crosshair"
       />
       <Line
         x1="12"
@@ -79,7 +75,6 @@ const Crosshair = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-crosshair"
       />
       <Line
         x1="12"
@@ -91,7 +86,6 @@ const Crosshair = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-crosshair"
       />
     </Svg>
   );

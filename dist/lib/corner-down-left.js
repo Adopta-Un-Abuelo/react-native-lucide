@@ -33,7 +33,6 @@ var CornerDownLeft = function CornerDownLeft(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-corner-down-left',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,17 +43,15 @@ var CornerDownLeft = function CornerDownLeft(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-corner-down-left'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M20 4v7a4 4 0 0 1-4 4H4',
+      d: 'M20 4v7a4 4 0 01-4 4H4',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-corner-down-left'
+      strokeLinejoin: 'round'
     })
   );
 };

@@ -28,7 +28,6 @@ const Cpu = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-cpu"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Rect
         x="9"
@@ -58,7 +56,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="9"
@@ -70,7 +67,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="15"
@@ -82,7 +78,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="9"
@@ -94,7 +89,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="15"
@@ -106,7 +100,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="20"
@@ -118,7 +111,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="20"
@@ -130,7 +122,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="1"
@@ -142,7 +133,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
       <Line
         x1="1"
@@ -154,7 +144,6 @@ const Cpu = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-cpu"
       />
     </Svg>
   );

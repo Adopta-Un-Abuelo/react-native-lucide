@@ -28,7 +28,6 @@ const Monitor = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-monitor"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Monitor = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-monitor"
       />
       <Line
         x1="8"
@@ -58,7 +56,6 @@ const Monitor = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-monitor"
       />
       <Line
         x1="12"
@@ -70,7 +67,6 @@ const Monitor = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-monitor"
       />
     </Svg>
   );

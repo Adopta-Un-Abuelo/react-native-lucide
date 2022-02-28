@@ -28,7 +28,6 @@ const GitBranch = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-git-branch"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const GitBranch = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-branch"
       />
       <_Circle
         cx="18"
@@ -55,7 +53,6 @@ const GitBranch = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-branch"
       />
       <_Circle
         cx="6"
@@ -66,16 +63,14 @@ const GitBranch = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-branch"
       />
       <Path
-        d="M18 9a9 9 0 0 1-9 9"
+        d="M18 9a9 9 0 01-9 9"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-branch"
       />
     </Svg>
   );

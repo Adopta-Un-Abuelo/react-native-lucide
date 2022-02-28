@@ -28,7 +28,6 @@ const Voicemail = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-voicemail"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Voicemail = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-voicemail"
       />
       <_Circle
         cx="18.5"
@@ -54,7 +52,6 @@ const Voicemail = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-voicemail"
       />
       <Line
         x1="5.5"
@@ -66,7 +63,6 @@ const Voicemail = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-voicemail"
       />
     </Svg>
   );

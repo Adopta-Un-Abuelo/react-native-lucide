@@ -28,7 +28,6 @@ const Disc = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-disc"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Disc = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-disc"
       />
       <_Circle
         cx="12"
@@ -54,7 +52,6 @@ const Disc = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-disc"
       />
     </Svg>
   );

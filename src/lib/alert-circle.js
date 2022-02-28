@@ -28,7 +28,6 @@ const AlertCircle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-alert-circle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const AlertCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-alert-circle"
       />
       <Line
         x1="12"
@@ -55,7 +53,6 @@ const AlertCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-alert-circle"
       />
       <Line
         x1="12"
@@ -67,7 +64,6 @@ const AlertCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-alert-circle"
       />
     </Svg>
   );

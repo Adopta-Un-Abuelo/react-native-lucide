@@ -28,7 +28,6 @@ const GitPullRequest = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-git-pull-request"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const GitPullRequest = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-pull-request"
       />
       <_Circle
         cx="6"
@@ -54,16 +52,14 @@ const GitPullRequest = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-pull-request"
       />
       <Path
-        d="M13 6h3a2 2 0 0 1 2 2v7"
+        d="M13 6h3a2 2 0 012 2v7"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-pull-request"
       />
       <Line
         x1="6"
@@ -75,7 +71,6 @@ const GitPullRequest = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-git-pull-request"
       />
     </Svg>
   );

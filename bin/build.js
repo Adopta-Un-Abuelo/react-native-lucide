@@ -9,7 +9,7 @@ const prettier = require('prettier');
 const rootDir = path.join(__dirname, '..');
 console.log('rootDir', rootDir);
 
-glob(`${rootDir}/src/icons/**.svg`, (err, icons) => {
+glob(`${rootDir}/src/lucide/**.svg`, (err, icons) => {
   fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
 
   icons.forEach((i) => {

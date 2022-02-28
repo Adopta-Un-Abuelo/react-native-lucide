@@ -28,7 +28,6 @@ const Database = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-database"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Database = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-database"
       />
       <Path
         d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"
@@ -53,7 +51,6 @@ const Database = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-database"
       />
       <Path
         d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"
@@ -62,7 +59,6 @@ const Database = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-database"
       />
     </Svg>
   );

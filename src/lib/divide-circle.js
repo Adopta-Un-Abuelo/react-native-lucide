@@ -28,7 +28,6 @@ const DivideCircle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-divide-circle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const DivideCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-divide-circle"
       />
       <Line
         x1="12"
@@ -56,7 +54,6 @@ const DivideCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-divide-circle"
       />
       <Line
         x1="12"
@@ -68,7 +65,6 @@ const DivideCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-divide-circle"
       />
       <_Circle
         cx="12"
@@ -79,7 +75,6 @@ const DivideCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-divide-circle"
       />
     </Svg>
   );

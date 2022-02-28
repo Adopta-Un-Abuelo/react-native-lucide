@@ -28,7 +28,6 @@ const Flag = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-flag"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Flag = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-flag"
       />
       <Line
         x1="4"
@@ -53,7 +51,6 @@ const Flag = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-flag"
       />
     </Svg>
   );

@@ -28,32 +28,37 @@ const CameraOff = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-camera-off"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Line
-        x1="1"
-        y1="1"
-        x2="23"
-        y2="23"
+        x1="2"
+        y1="2"
+        x2="22"
+        y2="22"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-camera-off"
       />
       <Path
-        d="M21 21H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3m3-3h6l2 3h4a2 2 0 0 1 2 2v9.34m-7.72-2.06a4 4 0 1 1-5.56-5.56"
+        d="M9.5 4h5L17 7h3a2 2 0 012 2v7.5M7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-camera-off"
+      />
+      <Path
+        d="M14.121 15.121A3 3 0 119.88 10.88"
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var MoreHorizontal = function MoreHorizontal(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-more-horizontal',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var MoreHorizontal = function MoreHorizontal(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-more-horizontal'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '19',
@@ -57,8 +55,7 @@ var MoreHorizontal = function MoreHorizontal(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-more-horizontal'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '5',
@@ -68,8 +65,7 @@ var MoreHorizontal = function MoreHorizontal(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-more-horizontal'
+      strokeLinejoin: 'round'
     })
   );
 };

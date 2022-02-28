@@ -33,19 +33,17 @@ var LogOut = function LogOut(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-log-out',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4',
+      d: 'M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-log-out'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '16 17 21 12 16 7',
@@ -53,8 +51,7 @@ var LogOut = function LogOut(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-log-out'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
       x1: '21',
@@ -65,8 +62,7 @@ var LogOut = function LogOut(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-log-out'
+      strokeLinejoin: 'round'
     })
   );
 };

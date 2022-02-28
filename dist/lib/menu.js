@@ -33,46 +33,42 @@ var Menu = function Menu(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-menu',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '3',
+      x1: '4',
       y1: '12',
-      x2: '21',
+      x2: '20',
       y2: '12',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-menu'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '3',
+      x1: '4',
       y1: '6',
-      x2: '21',
+      x2: '20',
       y2: '6',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-menu'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '3',
+      x1: '4',
       y1: '18',
-      x2: '21',
+      x2: '20',
       y2: '18',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-menu'
+      strokeLinejoin: 'round'
     })
   );
 };

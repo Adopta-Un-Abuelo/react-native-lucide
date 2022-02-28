@@ -33,53 +33,37 @@ var Truck = function Truck(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-truck',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
-    _react2.default.createElement(_reactNativeSvg.Rect, {
-      x: '1',
-      y: '3',
-      width: '15',
-      height: '13',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M10 17h4V5H2v12h3m15 0h2v-3.34a4 4 0 00-1.17-2.83L19 9h-5v8h1',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-truck'
-    }),
-    _react2.default.createElement(_reactNativeSvg.Polygon, {
-      points: '16 8 20 8 23 11 23 16 16 16 16 8',
-      fill: 'none',
-      stroke: color,
-      strokeWidth: '2',
-      strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-truck'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
-      cx: '5.5',
-      cy: '18.5',
+      cx: '7.5',
+      cy: '17.5',
       r: '2.5',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-truck'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
-      cx: '18.5',
-      cy: '18.5',
+      cx: '17.5',
+      cy: '17.5',
       r: '2.5',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-truck'
+      strokeLinejoin: 'round'
     })
   );
 };

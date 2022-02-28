@@ -28,7 +28,6 @@ const LifeBuoy = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-life-buoy"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
       <_Circle
         cx="12"
@@ -54,7 +52,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
       <Line
         x1="4.93"
@@ -66,7 +63,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
       <Line
         x1="14.83"
@@ -78,7 +74,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
       <Line
         x1="14.83"
@@ -90,7 +85,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
       <Line
         x1="14.83"
@@ -102,7 +96,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
       <Line
         x1="4.93"
@@ -114,7 +107,6 @@ const LifeBuoy = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-life-buoy"
       />
     </Svg>
   );

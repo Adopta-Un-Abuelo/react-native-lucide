@@ -28,7 +28,6 @@ const Trello = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-trello"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Trello = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-trello"
       />
       <Rect
         x="7"
@@ -58,7 +56,6 @@ const Trello = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-trello"
       />
       <Rect
         x="14"
@@ -70,7 +67,6 @@ const Trello = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-trello"
       />
     </Svg>
   );

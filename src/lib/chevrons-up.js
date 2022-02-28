@@ -28,7 +28,6 @@ const ChevronsUp = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-chevrons-up"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const ChevronsUp = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chevrons-up"
       />
       <Polyline
         points="17 18 12 13 7 18"
@@ -50,7 +48,6 @@ const ChevronsUp = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-chevrons-up"
       />
     </Svg>
   );

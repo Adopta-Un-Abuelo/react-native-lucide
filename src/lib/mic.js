@@ -28,29 +28,26 @@ const Mic = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-mic"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"
+        d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-mic"
       />
       <Path
-        d="M19 10v2a7 7 0 0 1-14 0v-2"
+        d="M19 10v2a7 7 0 01-14 0v-2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-mic"
       />
       <Line
         x1="12"
@@ -62,7 +59,6 @@ const Mic = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-mic"
       />
       <Line
         x1="8"
@@ -74,7 +70,6 @@ const Mic = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-mic"
       />
     </Svg>
   );

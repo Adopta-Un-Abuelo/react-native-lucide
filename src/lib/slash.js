@@ -28,7 +28,6 @@ const Slash = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-slash"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Slash = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-slash"
       />
       <Line
         x1="4.93"
@@ -55,7 +53,6 @@ const Slash = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-slash"
       />
     </Svg>
   );

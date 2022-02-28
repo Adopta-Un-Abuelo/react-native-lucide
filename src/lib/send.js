@@ -28,7 +28,6 @@ const Send = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-send"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -44,7 +43,6 @@ const Send = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-send"
       />
       <Polygon
         points="22 2 15 22 11 13 2 9 22 2"
@@ -53,7 +51,6 @@ const Send = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-send"
       />
     </Svg>
   );

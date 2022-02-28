@@ -28,29 +28,26 @@ const RotateCcw = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-rotate-ccw"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
-      <Polyline
-        points="1 4 1 10 7 10"
+      <Path
+        d="M3 2v6h6"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-rotate-ccw"
       />
       <Path
-        d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"
+        d="M3 13a9 9 0 103-7.7L3 8"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-rotate-ccw"
       />
     </Svg>
   );

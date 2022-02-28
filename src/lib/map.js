@@ -28,7 +28,6 @@ const Map = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-map"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Map = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-map"
       />
       <Line
         x1="8"
@@ -53,7 +51,6 @@ const Map = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-map"
       />
       <Line
         x1="16"
@@ -65,7 +62,6 @@ const Map = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-map"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var Smartphone = function Smartphone(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-smartphone',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -49,20 +48,15 @@ var Smartphone = function Smartphone(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-smartphone'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '12',
-      y1: '18',
-      x2: '12.01',
-      y2: '18',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M12 18h.01',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-smartphone'
+      strokeLinejoin: 'round'
     })
   );
 };

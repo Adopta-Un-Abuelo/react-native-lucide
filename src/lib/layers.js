@@ -28,7 +28,6 @@ const Layers = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-layers"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Layers = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-layers"
       />
       <Polyline
         points="2 17 12 22 22 17"
@@ -50,7 +48,6 @@ const Layers = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-layers"
       />
       <Polyline
         points="2 12 12 17 22 12"
@@ -59,7 +56,6 @@ const Layers = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-layers"
       />
     </Svg>
   );

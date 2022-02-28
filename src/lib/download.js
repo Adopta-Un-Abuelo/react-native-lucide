@@ -28,20 +28,18 @@ const Download = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-download"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+        d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-download"
       />
       <Polyline
         points="7 10 12 15 17 10"
@@ -50,7 +48,6 @@ const Download = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-download"
       />
       <Line
         x1="12"
@@ -62,7 +59,6 @@ const Download = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-download"
       />
     </Svg>
   );

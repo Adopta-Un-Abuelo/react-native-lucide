@@ -28,7 +28,6 @@ const FastForward = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-fast-forward"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const FastForward = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-fast-forward"
       />
       <Polygon
         points="2 19 11 12 2 5 2 19"
@@ -50,7 +48,6 @@ const FastForward = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-fast-forward"
       />
     </Svg>
   );

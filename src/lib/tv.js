@@ -28,7 +28,6 @@ const Tv = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-tv"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Tv = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-tv"
       />
       <Polyline
         points="17 2 12 7 7 2"
@@ -55,7 +53,6 @@ const Tv = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-tv"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const Grid = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-grid"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -37,50 +36,59 @@ const Grid = props => {
       <Rect
         x="3"
         y="3"
-        width="7"
-        height="7"
+        width="18"
+        height="18"
+        rx="2"
+        ry="2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-grid"
       />
-      <Rect
-        x="14"
-        y="3"
-        width="7"
-        height="7"
+      <Line
+        x1="3"
+        y1="9"
+        x2="21"
+        y2="9"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-grid"
       />
-      <Rect
-        x="14"
-        y="14"
-        width="7"
-        height="7"
+      <Line
+        x1="3"
+        y1="15"
+        x2="21"
+        y2="15"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-grid"
       />
-      <Rect
-        x="3"
-        y="14"
-        width="7"
-        height="7"
+      <Line
+        x1="9"
+        y1="3"
+        x2="9"
+        y2="21"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-grid"
+      />
+      <Line
+        x1="15"
+        y1="3"
+        x2="15"
+        y2="21"
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </Svg>
   );

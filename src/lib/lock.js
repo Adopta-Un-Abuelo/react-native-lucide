@@ -28,7 +28,6 @@ const Lock = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-lock"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,16 +45,14 @@ const Lock = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-lock"
       />
       <Path
-        d="M7 11V7a5 5 0 0 1 10 0v4"
+        d="M7 11V7a5 5 0 0110 0v4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-lock"
       />
     </Svg>
   );

@@ -28,7 +28,6 @@ const MousePointer = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-mouse-pointer"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const MousePointer = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-mouse-pointer"
       />
       <Path
         d="M13 13l6 6"
@@ -50,7 +48,6 @@ const MousePointer = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-mouse-pointer"
       />
     </Svg>
   );

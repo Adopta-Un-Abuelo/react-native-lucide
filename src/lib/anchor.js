@@ -28,7 +28,6 @@ const Anchor = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-anchor"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const Anchor = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-anchor"
       />
       <Line
         x1="12"
@@ -55,16 +53,14 @@ const Anchor = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-anchor"
       />
       <Path
-        d="M5 12H2a10 10 0 0 0 20 0h-3"
+        d="M5 12H2a10 10 0 0020 0h-3"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-anchor"
       />
     </Svg>
   );

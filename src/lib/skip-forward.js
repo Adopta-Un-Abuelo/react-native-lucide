@@ -28,7 +28,6 @@ const SkipForward = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-skip-forward"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const SkipForward = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-skip-forward"
       />
       <Line
         x1="19"
@@ -53,7 +51,6 @@ const SkipForward = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-skip-forward"
       />
     </Svg>
   );

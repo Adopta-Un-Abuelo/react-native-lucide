@@ -33,28 +33,25 @@ var CloudLightning = function CloudLightning(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-cloud-lightning',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
-      d: 'M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9',
+      d: 'M17.5 17a4.5 4.5 0 100-9h-1.8a7 7 0 10-10.3 8',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-lightning'
+      strokeLinejoin: 'round'
     }),
-    _react2.default.createElement(_reactNativeSvg.Polyline, {
-      points: '13 11 9 17 15 17 11 23',
+    _react2.default.createElement(_reactNativeSvg.Path, {
+      d: 'M12 12l-3 5h5l-3 5',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-cloud-lightning'
+      strokeLinejoin: 'round'
     })
   );
 };

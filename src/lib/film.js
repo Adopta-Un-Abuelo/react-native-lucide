@@ -28,7 +28,6 @@ const Film = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-film"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="7"
@@ -58,7 +56,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="17"
@@ -70,7 +67,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="2"
@@ -82,7 +78,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="2"
@@ -94,7 +89,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="2"
@@ -106,7 +100,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="17"
@@ -118,7 +111,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
       <Line
         x1="17"
@@ -130,7 +122,6 @@ const Film = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-film"
       />
     </Svg>
   );

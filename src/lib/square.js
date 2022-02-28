@@ -28,7 +28,6 @@ const Square = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-square"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Square = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-square"
       />
     </Svg>
   );

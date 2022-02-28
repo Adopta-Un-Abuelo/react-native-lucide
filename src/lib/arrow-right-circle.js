@@ -28,7 +28,6 @@ const ArrowRightCircle = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-arrow-right-circle"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -43,7 +42,6 @@ const ArrowRightCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-arrow-right-circle"
       />
       <Polyline
         points="12 16 16 12 12 8"
@@ -52,7 +50,6 @@ const ArrowRightCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-arrow-right-circle"
       />
       <Line
         x1="8"
@@ -64,7 +61,6 @@ const ArrowRightCircle = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-arrow-right-circle"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var GitCommit = function GitCommit(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-git-commit',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -41,37 +40,34 @@ var GitCommit = function GitCommit(props) {
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '12',
       cy: '12',
-      r: '4',
+      r: '3',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-git-commit'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '1.05',
+      x1: '3',
       y1: '12',
-      x2: '7',
+      x2: '9',
       y2: '12',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-git-commit'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Line, {
-      x1: '17.01',
+      x1: '15',
       y1: '12',
-      x2: '22.96',
+      x2: '21',
       y2: '12',
       fill: 'none',
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-git-commit'
+      strokeLinejoin: 'round'
     })
   );
 };

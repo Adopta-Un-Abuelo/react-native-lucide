@@ -28,7 +28,6 @@ const Image = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-image"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Image = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-image"
       />
       <_Circle
         cx="8.5"
@@ -57,7 +55,6 @@ const Image = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-image"
       />
       <Polyline
         points="21 15 16 10 5 21"
@@ -66,7 +63,6 @@ const Image = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-image"
       />
     </Svg>
   );

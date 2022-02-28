@@ -28,7 +28,6 @@ const Video = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-video"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const Video = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-video"
       />
       <Rect
         x="1"
@@ -55,7 +53,6 @@ const Video = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-video"
       />
     </Svg>
   );

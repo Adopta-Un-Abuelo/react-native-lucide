@@ -28,41 +28,45 @@ const BatteryCharging = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-battery-charging"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19"
+        d="M14 7h2a2 2 0 012 2v6a2 2 0 01-2 2h-3"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-battery-charging"
       />
-      <Line
-        x1="23"
-        y1="13"
-        x2="23"
-        y2="11"
+      <Path
+        d="M7 7H4a2 2 0 00-2 2v6a2 2 0 002 2h2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-battery-charging"
       />
       <Polyline
-        points="11 6 7 12 13 12 9 18"
+        points="11 7 8 12 12 12 9 17"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-battery-charging"
+      />
+      <Line
+        x1="22"
+        x2="22"
+        y1="11"
+        y2="13"
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </Svg>
   );

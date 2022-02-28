@@ -28,7 +28,6 @@ const Sun = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-sun"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -37,109 +36,76 @@ const Sun = props => {
       <_Circle
         cx="12"
         cy="12"
-        r="5"
+        r="4"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="12"
-        y1="1"
-        x2="12"
-        y2="3"
+      <Path
+        d="M12 2v2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="12"
-        y1="21"
-        x2="12"
-        y2="23"
+      <Path
+        d="M12 20v2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="4.22"
-        y1="4.22"
-        x2="5.64"
-        y2="5.64"
+      <Path
+        d="M5 5l1.5 1.5"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="18.36"
-        y1="18.36"
-        x2="19.78"
-        y2="19.78"
+      <Path
+        d="M17.5 17.5L19 19"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="1"
-        y1="12"
-        x2="3"
-        y2="12"
+      <Path
+        d="M2 12h2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="21"
-        y1="12"
-        x2="23"
-        y2="12"
+      <Path
+        d="M20 12h2"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="4.22"
-        y1="19.78"
-        x2="5.64"
-        y2="18.36"
+      <Path
+        d="M5 19l1.5-1.5"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
-      <Line
-        x1="18.36"
-        y1="5.64"
-        x2="19.78"
-        y2="4.22"
+      <Path
+        d="M17.5 6.5L19 5"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-sun"
       />
     </Svg>
   );

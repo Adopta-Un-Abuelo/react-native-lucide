@@ -28,7 +28,6 @@ const VolumeX = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-volume-x"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -41,7 +40,6 @@ const VolumeX = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-volume-x"
       />
       <Line
         x1="23"
@@ -53,7 +51,6 @@ const VolumeX = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-volume-x"
       />
       <Line
         x1="17"
@@ -65,7 +62,6 @@ const VolumeX = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-volume-x"
       />
     </Svg>
   );

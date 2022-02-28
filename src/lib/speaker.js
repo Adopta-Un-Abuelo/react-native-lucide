@@ -28,7 +28,6 @@ const Speaker = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-speaker"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const Speaker = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-speaker"
       />
       <_Circle
         cx="12"
@@ -57,7 +55,6 @@ const Speaker = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-speaker"
       />
       <Line
         x1="12"
@@ -69,7 +66,6 @@ const Speaker = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-speaker"
       />
     </Svg>
   );

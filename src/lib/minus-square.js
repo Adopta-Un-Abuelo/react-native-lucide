@@ -28,7 +28,6 @@ const MinusSquare = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-minus-square"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -46,7 +45,6 @@ const MinusSquare = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-minus-square"
       />
       <Line
         x1="8"
@@ -58,7 +56,6 @@ const MinusSquare = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-minus-square"
       />
     </Svg>
   );

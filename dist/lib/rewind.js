@@ -33,7 +33,6 @@ var Rewind = function Rewind(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-rewind',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var Rewind = function Rewind(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-rewind'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '22 19 13 12 22 5 22 19',
@@ -53,8 +51,7 @@ var Rewind = function Rewind(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-rewind'
+      strokeLinejoin: 'round'
     })
   );
 };

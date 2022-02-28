@@ -33,7 +33,6 @@ var PenTool = function PenTool(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-pen-tool',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -44,8 +43,7 @@ var PenTool = function PenTool(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-pen-tool'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z',
@@ -53,8 +51,7 @@ var PenTool = function PenTool(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-pen-tool'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 2l7.586 7.586',
@@ -62,8 +59,7 @@ var PenTool = function PenTool(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-pen-tool'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Circle, {
       cx: '11',
@@ -73,8 +69,7 @@ var PenTool = function PenTool(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-pen-tool'
+      strokeLinejoin: 'round'
     })
   );
 };

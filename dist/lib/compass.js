@@ -33,7 +33,6 @@ var Compass = function Compass(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-compass',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -46,8 +45,7 @@ var Compass = function Compass(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-compass'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76',
@@ -55,8 +53,7 @@ var Compass = function Compass(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-compass'
+      strokeLinejoin: 'round'
     })
   );
 };

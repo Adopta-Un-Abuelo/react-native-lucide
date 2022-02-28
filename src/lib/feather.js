@@ -28,20 +28,18 @@ const Feather = props => {
       viewBox="0 0 24 24"
       fill="none"
       stroke={color}
-      class="feather feather-feather"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
     >
       <Path
-        d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"
+        d="M20.24 12.24a6 6 0 00-8.49-8.49L5 10.5V19h8.5z"
         fill="none"
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-feather"
       />
       <Line
         x1="16"
@@ -53,7 +51,6 @@ const Feather = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-feather"
       />
       <Line
         x1="17.5"
@@ -65,7 +62,6 @@ const Feather = props => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-feather"
       />
     </Svg>
   );

@@ -33,7 +33,6 @@ var Database = function Database(props) {
       viewBox: '0 0 24 24',
       fill: 'none',
       stroke: color,
-      'class': 'feather feather-database',
       strokeWidth: '2',
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
@@ -47,8 +46,7 @@ var Database = function Database(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-database'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 12c0 1.66-4 3-9 3s-9-1.34-9-3',
@@ -56,8 +54,7 @@ var Database = function Database(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-database'
+      strokeLinejoin: 'round'
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5',
@@ -65,8 +62,7 @@ var Database = function Database(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round',
-      'class': 'feather feather-database'
+      strokeLinejoin: 'round'
     })
   );
 };
