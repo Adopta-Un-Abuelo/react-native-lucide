@@ -140,7 +140,7 @@ glob(`${rootDir}/src/lucide/**.svg`, (err, icons) => {
         color: 'black',
         size: '24',
         fill: 'none',
-        strokeWidth: '1'
+        strokeWidth: '2'
       }
 
       export default ${uppercamelcase(id)}

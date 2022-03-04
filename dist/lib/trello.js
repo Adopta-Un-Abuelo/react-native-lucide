@@ -88,7 +88,7 @@ Trello.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
-  strokeWidth: '1'
+  strokeWidth: '2'
 };
 
 exports.default = Trello;

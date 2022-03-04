@@ -74,7 +74,7 @@ Watch.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
-  strokeWidth: '1',
+  strokeWidth: '2',
 };
 
 export default Watch;
