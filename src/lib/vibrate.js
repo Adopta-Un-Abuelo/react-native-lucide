@@ -35,7 +35,7 @@ const Vibrate = props => {
     >
       <Path
         d="M2 8l2 2-2 2 2 2-2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Vibrate = props => {
       />
       <Path
         d="M22 8l-2 2 2 2-2 2 2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const Vibrate = props => {
         width="8"
         height="14"
         rx="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

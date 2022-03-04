@@ -37,7 +37,7 @@ const Share2 = props => {
         cx="18"
         cy="5"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Share2 = props => {
         cx="6"
         cy="12"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const Share2 = props => {
         cx="18"
         cy="19"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -68,7 +68,7 @@ const Share2 = props => {
         y1="13.51"
         x2="15.42"
         y2="17.49"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -79,7 +79,7 @@ const Share2 = props => {
         y1="6.51"
         x2="8.59"
         y2="10.49"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

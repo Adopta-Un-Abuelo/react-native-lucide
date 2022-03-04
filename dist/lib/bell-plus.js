@@ -40,7 +40,7 @@ var BellPlus = function BellPlus(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18.387 12C19.198 15.799 21 17 21 17H3s3-2 3-9a6 6 0 017-5.916',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var BellPlus = function BellPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M13.73 21a2 2 0 01-3.46 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var BellPlus = function BellPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 2v6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var BellPlus = function BellPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 5h-6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

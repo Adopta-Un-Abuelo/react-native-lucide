@@ -40,7 +40,7 @@ var GraduationCap = function GraduationCap(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 10v6M2 10l10-5 10 5-10 5z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var GraduationCap = function GraduationCap(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 12v5c3 3 9 3 12 0v-5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

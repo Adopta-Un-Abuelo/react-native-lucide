@@ -35,7 +35,7 @@ const Ruler = props => {
     >
       <Path
         d="M16 2l6 6L8 22l-6-6L16 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Ruler = props => {
       />
       <Path
         d="M7.5 10.5l2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Ruler = props => {
       />
       <Path
         d="M10.5 7.5l2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Ruler = props => {
       />
       <Path
         d="M13.5 4.5l2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Ruler = props => {
       />
       <Path
         d="M4.5 13.5l2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

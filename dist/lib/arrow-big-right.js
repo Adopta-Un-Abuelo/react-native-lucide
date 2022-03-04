@@ -40,7 +40,7 @@ var ArrowBigRight = function ArrowBigRight(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 12l-7-7v4H3v6h11v4z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

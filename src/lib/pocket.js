@@ -35,7 +35,7 @@ const Pocket = props => {
     >
       <Path
         d="M4 3h16a2 2 0 012 2v6a10 10 0 01-10 10A10 10 0 012 11V5a2 2 0 012-2z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Pocket = props => {
       />
       <Polyline
         points="8 10 12 14 16 10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

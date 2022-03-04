@@ -35,7 +35,7 @@ const UserMinus = props => {
     >
       <Path
         d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const UserMinus = props => {
         cx="8.5"
         cy="7"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const UserMinus = props => {
         y1="11"
         x2="17"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

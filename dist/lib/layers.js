@@ -40,7 +40,7 @@ var Layers = function Layers(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '12 2 2 7 12 12 22 7 12 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Layers = function Layers(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '2 17 12 22 22 17',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Layers = function Layers(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '2 12 12 17 22 12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

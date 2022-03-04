@@ -45,7 +45,7 @@ var Tv = function Tv(props) {
       height: '15',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var Tv = function Tv(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 2 12 7 7 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

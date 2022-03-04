@@ -37,7 +37,7 @@ const LifeBuoy = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const LifeBuoy = props => {
         cx="12"
         cy="12"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const LifeBuoy = props => {
         y1="4.93"
         x2="9.17"
         y2="9.17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -69,7 +69,7 @@ const LifeBuoy = props => {
         y1="14.83"
         x2="19.07"
         y2="19.07"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -80,7 +80,7 @@ const LifeBuoy = props => {
         y1="9.17"
         x2="19.07"
         y2="4.93"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -91,7 +91,7 @@ const LifeBuoy = props => {
         y1="9.17"
         x2="18.36"
         y2="5.64"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -102,7 +102,7 @@ const LifeBuoy = props => {
         y1="19.07"
         x2="9.17"
         y2="14.83"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

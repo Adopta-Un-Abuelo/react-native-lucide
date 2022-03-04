@@ -35,7 +35,7 @@ const Gavel = props => {
     >
       <Path
         d="M14 13l-7.5 7.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 010-3L11 10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Gavel = props => {
       />
       <Path
         d="M16 16l6-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Gavel = props => {
       />
       <Path
         d="M8 8l6-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Gavel = props => {
       />
       <Path
         d="M9 7l8 8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Gavel = props => {
       />
       <Path
         d="M21 11l-8-8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

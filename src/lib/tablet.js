@@ -40,7 +40,7 @@ const Tablet = props => {
         height="20"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Tablet = props => {
         y1="18"
         x2="12.01"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

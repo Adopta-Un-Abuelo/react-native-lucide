@@ -39,7 +39,7 @@ const Banknote = props => {
         width="20"
         height="12"
         rx="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Banknote = props => {
         cx="12"
         cy="12"
         r="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const Banknote = props => {
       />
       <Path
         d="M6 12h.01M18 12h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

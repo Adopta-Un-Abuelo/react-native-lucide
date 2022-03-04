@@ -40,7 +40,7 @@ var Bluetooth = function Bluetooth(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 7l10 10-5 5V2l5 5L7 17',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const Crown = props => {
     >
       <Path
         d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

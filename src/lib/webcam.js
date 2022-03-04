@@ -37,7 +37,7 @@ const Webcam = props => {
         cx="12"
         cy="10"
         r="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Webcam = props => {
         cx="12"
         cy="10"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const Webcam = props => {
       />
       <Path
         d="M12 22v-4m-5 4h5-5zm10 0h-5 5z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

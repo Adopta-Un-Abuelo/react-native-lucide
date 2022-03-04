@@ -39,7 +39,7 @@ const Bug = props => {
         x="8"
         y="6"
         rx="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Bug = props => {
       />
       <Path
         d="M19 7l-3 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const Bug = props => {
       />
       <Path
         d="M5 7l3 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -63,7 +63,7 @@ const Bug = props => {
       />
       <Path
         d="M19 19l-3-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const Bug = props => {
       />
       <Path
         d="M5 19l3-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -79,7 +79,7 @@ const Bug = props => {
       />
       <Path
         d="M20 13h-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -87,7 +87,7 @@ const Bug = props => {
       />
       <Path
         d="M4 13h4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -95,7 +95,7 @@ const Bug = props => {
       />
       <Path
         d="M10 4l1 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -103,7 +103,7 @@ const Bug = props => {
       />
       <Path
         d="M14 4l-1 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

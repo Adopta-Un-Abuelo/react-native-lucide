@@ -35,7 +35,7 @@ const Ghost = props => {
     >
       <Path
         d="M9 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Ghost = props => {
       />
       <Path
         d="M15 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Ghost = props => {
       />
       <Path
         d="M12 2a8 8 0 00-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 00-8-8z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

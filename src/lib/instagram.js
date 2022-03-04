@@ -40,7 +40,7 @@ const Instagram = props => {
         height="20"
         rx="5"
         ry="5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Instagram = props => {
       />
       <Path
         d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Instagram = props => {
         y1="6.5"
         x2="17.51"
         y2="6.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -35,7 +35,7 @@ const Power = props => {
     >
       <Path
         d="M18.36 6.64a9 9 0 11-12.73 0"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Power = props => {
         y1="2"
         x2="12"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -35,7 +35,7 @@ const RotateCcw = props => {
     >
       <Path
         d="M3 2v6h6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const RotateCcw = props => {
       />
       <Path
         d="M3 13a9 9 0 103-7.7L3 8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

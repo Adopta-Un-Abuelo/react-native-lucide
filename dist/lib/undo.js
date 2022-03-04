@@ -40,7 +40,7 @@ var Undo = function Undo(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 7v6h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Undo = function Undo(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 17a9 9 0 00-9-9 9 9 0 00-6 2.3L3 13',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

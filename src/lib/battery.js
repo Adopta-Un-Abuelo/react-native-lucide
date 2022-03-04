@@ -40,7 +40,7 @@ const Battery = props => {
         height="10"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Battery = props => {
         x2="22"
         y1="11"
         y2="13"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

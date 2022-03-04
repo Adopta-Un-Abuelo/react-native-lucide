@@ -39,7 +39,7 @@ const Slack = props => {
         width="3"
         height="8"
         rx="1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Slack = props => {
       />
       <Path
         d="M19 8.5V10h1.5A1.5 1.5 0 1019 8.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Slack = props => {
         width="3"
         height="8"
         rx="1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Slack = props => {
       />
       <Path
         d="M5 15.5V14H3.5A1.5 1.5 0 105 15.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -79,7 +79,7 @@ const Slack = props => {
         width="8"
         height="3"
         rx="1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -87,7 +87,7 @@ const Slack = props => {
       />
       <Path
         d="M15.5 19H14v1.5a1.5 1.5 0 101.5-1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -99,7 +99,7 @@ const Slack = props => {
         width="8"
         height="3"
         rx="1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -107,7 +107,7 @@ const Slack = props => {
       />
       <Path
         d="M8.5 5H10V3.5A1.5 1.5 0 108.5 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -40,7 +40,7 @@ var HandMetal = function HandMetal(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 12.5V10a2 2 0 00-2-2v0a2 2 0 00-2 2v1.4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var HandMetal = function HandMetal(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 11V9a2 2 0 10-4 0v2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var HandMetal = function HandMetal(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 10.5V5a2 2 0 10-4 0v9',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var HandMetal = function HandMetal(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 15l-1.76-1.76a2 2 0 00-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 008-8V7a2 2 0 10-4 0v5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

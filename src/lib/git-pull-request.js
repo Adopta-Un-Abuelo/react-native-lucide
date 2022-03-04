@@ -37,7 +37,7 @@ const GitPullRequest = props => {
         cx="18"
         cy="18"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const GitPullRequest = props => {
         cx="6"
         cy="6"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const GitPullRequest = props => {
       />
       <Path
         d="M13 6h3a2 2 0 012 2v7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -66,7 +66,7 @@ const GitPullRequest = props => {
         y1="9"
         x2="6"
         y2="21"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

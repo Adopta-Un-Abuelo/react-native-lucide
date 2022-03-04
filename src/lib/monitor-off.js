@@ -35,7 +35,7 @@ const MonitorOff = props => {
     >
       <Path
         d="M17 17H4a2 2 0 01-2-2V5c0-1.5 1-2 1-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const MonitorOff = props => {
       />
       <Path
         d="M22 15V5a2 2 0 00-2-2H9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const MonitorOff = props => {
       />
       <Path
         d="M8 21h8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const MonitorOff = props => {
       />
       <Path
         d="M12 17v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const MonitorOff = props => {
       />
       <Path
         d="M2 2l20 20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

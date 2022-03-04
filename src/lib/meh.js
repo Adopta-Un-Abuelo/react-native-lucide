@@ -37,7 +37,7 @@ const Meh = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Meh = props => {
         y1="15"
         x2="16"
         y2="15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Meh = props => {
         y1="9"
         x2="9.01"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -70,7 +70,7 @@ const Meh = props => {
         y1="9"
         x2="15.01"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -35,7 +35,7 @@ const ChevronsUp = props => {
     >
       <Polyline
         points="17 11 12 6 7 11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ChevronsUp = props => {
       />
       <Polyline
         points="17 18 12 13 7 18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

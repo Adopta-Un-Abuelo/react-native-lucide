@@ -37,7 +37,7 @@ const PauseCircle = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const PauseCircle = props => {
         y1="15"
         x2="10"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const PauseCircle = props => {
         y1="15"
         x2="14"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

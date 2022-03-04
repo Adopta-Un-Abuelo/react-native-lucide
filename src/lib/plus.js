@@ -38,7 +38,7 @@ const Plus = props => {
         y1="5"
         x2="12"
         y2="19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Plus = props => {
         y1="12"
         x2="19"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

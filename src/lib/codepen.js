@@ -35,7 +35,7 @@ const Codepen = props => {
     >
       <Polygon
         points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Codepen = props => {
         y1="22"
         x2="12"
         y2="15.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const Codepen = props => {
       />
       <Polyline
         points="22 8.5 12 15.5 2 8.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -62,7 +62,7 @@ const Codepen = props => {
       />
       <Polyline
         points="2 15.5 12 8.5 22 15.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const Codepen = props => {
         y1="2"
         x2="12"
         y2="8.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

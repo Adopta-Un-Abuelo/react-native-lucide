@@ -35,7 +35,7 @@ const AlarmPlus = props => {
     >
       <Path
         d="M12 21a8 8 0 100-16 8 8 0 000 16z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const AlarmPlus = props => {
       />
       <Path
         d="M5 3L2 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const AlarmPlus = props => {
       />
       <Path
         d="M22 6l-3-3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const AlarmPlus = props => {
       />
       <Path
         d="M6 19l-2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const AlarmPlus = props => {
       />
       <Path
         d="M18 19l2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -75,7 +75,7 @@ const AlarmPlus = props => {
       />
       <Path
         d="M12 10v6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -83,7 +83,7 @@ const AlarmPlus = props => {
       />
       <Path
         d="M9 13h6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

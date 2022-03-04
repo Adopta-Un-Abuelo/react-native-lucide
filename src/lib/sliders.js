@@ -38,7 +38,7 @@ const Sliders = props => {
         y1="21"
         x2="4"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Sliders = props => {
         y1="10"
         x2="4"
         y2="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const Sliders = props => {
         y1="21"
         x2="12"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const Sliders = props => {
         y1="8"
         x2="12"
         y2="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -82,7 +82,7 @@ const Sliders = props => {
         y1="21"
         x2="20"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -93,7 +93,7 @@ const Sliders = props => {
         y1="12"
         x2="20"
         y2="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -104,7 +104,7 @@ const Sliders = props => {
         y1="14"
         x2="7"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -115,7 +115,7 @@ const Sliders = props => {
         y1="8"
         x2="15"
         y2="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -126,7 +126,7 @@ const Sliders = props => {
         y1="16"
         x2="23"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

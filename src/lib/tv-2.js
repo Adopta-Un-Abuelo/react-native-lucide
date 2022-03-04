@@ -35,7 +35,7 @@ const Tv2 = props => {
     >
       <Path
         d="M7 21h10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Tv2 = props => {
         width="20"
         height="14"
         rx="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

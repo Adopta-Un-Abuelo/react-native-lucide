@@ -38,7 +38,7 @@ const LayoutGrid = props => {
         y="3"
         width="7"
         height="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const LayoutGrid = props => {
         y="3"
         width="7"
         height="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const LayoutGrid = props => {
         y="14"
         width="7"
         height="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const LayoutGrid = props => {
         y="14"
         width="7"
         height="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

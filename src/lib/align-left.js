@@ -38,7 +38,7 @@ const AlignLeft = props => {
         y1="6"
         x2="3"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const AlignLeft = props => {
         y1="12"
         x2="3"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const AlignLeft = props => {
         y1="18"
         x2="3"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

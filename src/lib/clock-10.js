@@ -37,7 +37,7 @@ const Clock10 = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const Clock10 = props => {
       />
       <Polyline
         points="12 6 12 12 8 10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

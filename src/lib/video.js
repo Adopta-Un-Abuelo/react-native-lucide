@@ -35,7 +35,7 @@ const Video = props => {
     >
       <Polygon
         points="23 7 16 12 23 17 23 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Video = props => {
         height="14"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

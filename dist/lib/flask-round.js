@@ -40,7 +40,7 @@ var FlaskRound = function FlaskRound(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 2v7.31',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var FlaskRound = function FlaskRound(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 9.3V1.99',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var FlaskRound = function FlaskRound(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M8.5 2h7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var FlaskRound = function FlaskRound(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 9.3a6.5 6.5 0 11-4 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var FlaskRound = function FlaskRound(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5.58 16.5h12.85',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

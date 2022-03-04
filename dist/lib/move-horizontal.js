@@ -40,7 +40,7 @@ var MoveHorizontal = function MoveHorizontal(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '18 8 22 12 18 16',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var MoveHorizontal = function MoveHorizontal(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '6 8 2 12 6 16',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var MoveHorizontal = function MoveHorizontal(props) {
       y1: '12',
       x2: '22',
       y2: '12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

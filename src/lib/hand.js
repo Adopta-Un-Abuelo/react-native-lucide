@@ -35,7 +35,7 @@ const Hand = props => {
     >
       <Path
         d="M18 11V6a2 2 0 00-2-2v0a2 2 0 00-2 2v0"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Hand = props => {
       />
       <Path
         d="M14 10V4a2 2 0 00-2-2v0a2 2 0 00-2 2v2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Hand = props => {
       />
       <Path
         d="M10 10.5V6a2 2 0 00-2-2v0a2 2 0 00-2 2v8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Hand = props => {
       />
       <Path
         d="M18 8a2 2 0 114 0v6a8 8 0 01-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 012.83-2.82L7 15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

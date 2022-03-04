@@ -35,7 +35,7 @@ const MonitorSpeaker = props => {
     >
       <Path
         d="M5.5 20H8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const MonitorSpeaker = props => {
       />
       <Path
         d="M17 9h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const MonitorSpeaker = props => {
         width="10"
         height="16"
         rx="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -63,7 +63,7 @@ const MonitorSpeaker = props => {
       />
       <Path
         d="M8 6H4a2 2 0 00-2 2v6a2 2 0 002 2h4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const MonitorSpeaker = props => {
         cx="17"
         cy="15"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

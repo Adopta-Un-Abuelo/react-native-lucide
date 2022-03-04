@@ -38,7 +38,7 @@ const ListChecks = props => {
         y1="6"
         x2="21"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const ListChecks = props => {
         y1="12"
         x2="21"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const ListChecks = props => {
         y1="18"
         x2="21"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -68,7 +68,7 @@ const ListChecks = props => {
       />
       <Polyline
         points="3 6 4 7 6 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -76,7 +76,7 @@ const ListChecks = props => {
       />
       <Polyline
         points="3 12 4 13 6 11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -84,7 +84,7 @@ const ListChecks = props => {
       />
       <Polyline
         points="3 18 4 19 6 17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

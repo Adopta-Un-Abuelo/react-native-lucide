@@ -35,7 +35,7 @@ const Signal = props => {
     >
       <Path
         d="M2 20h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Signal = props => {
       />
       <Path
         d="M7 20v-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Signal = props => {
       />
       <Path
         d="M12 20v-8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Signal = props => {
       />
       <Path
         d="M17 20V8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Signal = props => {
       />
       <Path
         d="M22 4v16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

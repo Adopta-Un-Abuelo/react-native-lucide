@@ -35,7 +35,7 @@ const Book = props => {
     >
       <Path
         d="M4 19.5A2.5 2.5 0 016.5 17H20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Book = props => {
       />
       <Path
         d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

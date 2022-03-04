@@ -35,7 +35,7 @@ const FlagTriangleLeft = props => {
     >
       <Path
         d="M17 22V2L7 7l10 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

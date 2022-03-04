@@ -37,7 +37,7 @@ const GripVertical = props => {
         cx="9"
         cy="12"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const GripVertical = props => {
         cx="9"
         cy="5"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const GripVertical = props => {
         cx="9"
         cy="19"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const GripVertical = props => {
         cx="15"
         cy="12"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -77,7 +77,7 @@ const GripVertical = props => {
         cx="15"
         cy="5"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -87,7 +87,7 @@ const GripVertical = props => {
         cx="15"
         cy="19"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

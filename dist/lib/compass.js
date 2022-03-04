@@ -42,7 +42,7 @@ var Compass = function Compass(props) {
       cx: '12',
       cy: '12',
       r: '10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var Compass = function Compass(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

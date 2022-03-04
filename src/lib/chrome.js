@@ -37,7 +37,7 @@ const Chrome = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Chrome = props => {
         cx="12"
         cy="12"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const Chrome = props => {
         y1="8"
         x2="12"
         y2="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -69,7 +69,7 @@ const Chrome = props => {
         y1="6.06"
         x2="8.54"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -80,7 +80,7 @@ const Chrome = props => {
         y1="21.94"
         x2="15.46"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

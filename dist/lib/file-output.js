@@ -40,7 +40,7 @@ var FileOutput = function FileOutput(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 22h14a2 2 0 002-2V7.5L14.5 2H6a2 2 0 00-2 2v4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var FileOutput = function FileOutput(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 2v6h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var FileOutput = function FileOutput(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 15h10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var FileOutput = function FileOutput(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5 12l-3 3 3 3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

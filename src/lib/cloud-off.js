@@ -35,7 +35,7 @@ const CloudOff = props => {
     >
       <Path
         d="M2 2l20 20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const CloudOff = props => {
       />
       <Path
         d="M10 5a7 7 0 015.7 5h1.8a4.5 4.5 0 014 6.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const CloudOff = props => {
       />
       <Path
         d="M18.8 18.8c-.4.2-.8.2-1.3.2H9A7 7 0 015.8 5.8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

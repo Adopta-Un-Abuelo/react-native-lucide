@@ -35,7 +35,7 @@ const Outdent = props => {
     >
       <Polyline
         points="7 8 3 12 7 16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Outdent = props => {
         y1="12"
         x2="11"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const Outdent = props => {
         y1="6"
         x2="11"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -68,7 +68,7 @@ const Outdent = props => {
         y1="18"
         x2="11"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

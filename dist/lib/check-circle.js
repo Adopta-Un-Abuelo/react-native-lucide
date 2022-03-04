@@ -40,7 +40,7 @@ var CheckCircle = function CheckCircle(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 11.08V12a10 10 0 11-5.93-9.14',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var CheckCircle = function CheckCircle(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '22 4 12 14.01 9 11.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

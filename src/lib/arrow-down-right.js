@@ -38,7 +38,7 @@ const ArrowDownRight = props => {
         y1="7"
         x2="17"
         y2="17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const ArrowDownRight = props => {
       />
       <Polyline
         points="17 7 17 17 7 17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

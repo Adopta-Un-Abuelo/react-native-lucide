@@ -40,7 +40,7 @@ var SkipBack = function SkipBack(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '19 20 9 12 19 4 19 20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -51,7 +51,7 @@ var SkipBack = function SkipBack(props) {
       y1: '19',
       x2: '5',
       y2: '5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

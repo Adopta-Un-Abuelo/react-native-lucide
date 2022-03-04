@@ -43,7 +43,7 @@ var ArrowDownLeft = function ArrowDownLeft(props) {
       y1: '7',
       x2: '7',
       y2: '17',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -51,7 +51,7 @@ var ArrowDownLeft = function ArrowDownLeft(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 17 7 17 7 7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

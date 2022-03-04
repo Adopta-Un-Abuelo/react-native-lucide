@@ -37,7 +37,7 @@ const Divide = props => {
         cx="12"
         cy="6"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Divide = props => {
         y1="12"
         x2="19"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const Divide = props => {
         cx="12"
         cy="18"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

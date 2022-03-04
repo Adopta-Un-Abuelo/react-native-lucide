@@ -35,7 +35,7 @@ const CheckSquare = props => {
     >
       <Polyline
         points="9 11 12 14 22 4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const CheckSquare = props => {
       />
       <Path
         d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

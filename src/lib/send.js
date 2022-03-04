@@ -38,7 +38,7 @@ const Send = props => {
         y1="2"
         x2="11"
         y2="13"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Send = props => {
       />
       <Polygon
         points="22 2 15 22 11 13 2 9 22 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

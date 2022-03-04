@@ -35,7 +35,7 @@ const Minimize2 = props => {
     >
       <Polyline
         points="4 14 10 14 10 20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Minimize2 = props => {
       />
       <Polyline
         points="20 10 14 10 14 4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const Minimize2 = props => {
         y1="10"
         x2="21"
         y2="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const Minimize2 = props => {
         y1="21"
         x2="10"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

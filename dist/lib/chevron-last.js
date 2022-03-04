@@ -40,7 +40,7 @@ var ChevronLast = function ChevronLast(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '7 18 13 12 7 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ChevronLast = function ChevronLast(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 6v12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

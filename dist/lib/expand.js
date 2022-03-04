@@ -40,7 +40,7 @@ var Expand = function Expand(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 21l-6-6m6 6v-4.8m0 4.8h-4.8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Expand = function Expand(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 16.2V21m0 0h4.8M3 21l6-6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Expand = function Expand(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 7.8V3m0 0h-4.8M21 3l-6 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var Expand = function Expand(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 7.8V3m0 0h4.8M3 3l6 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const TerminalSquare = props => {
     >
       <Path
         d="M7 11l2-2-2-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const TerminalSquare = props => {
       />
       <Path
         d="M11 13h4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const TerminalSquare = props => {
         height="18"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

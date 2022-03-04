@@ -38,7 +38,7 @@ const Hash = props => {
         y1="9"
         x2="20"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Hash = props => {
         y1="15"
         x2="20"
         y2="15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const Hash = props => {
         y1="3"
         x2="8"
         y2="21"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const Hash = props => {
         y1="3"
         x2="14"
         y2="21"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

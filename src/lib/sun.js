@@ -37,7 +37,7 @@ const Sun = props => {
         cx="12"
         cy="12"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const Sun = props => {
       />
       <Path
         d="M12 2v2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -53,7 +53,7 @@ const Sun = props => {
       />
       <Path
         d="M12 20v2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -61,7 +61,7 @@ const Sun = props => {
       />
       <Path
         d="M5 5l1.5 1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -69,7 +69,7 @@ const Sun = props => {
       />
       <Path
         d="M17.5 17.5L19 19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -77,7 +77,7 @@ const Sun = props => {
       />
       <Path
         d="M2 12h2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -85,7 +85,7 @@ const Sun = props => {
       />
       <Path
         d="M20 12h2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -93,7 +93,7 @@ const Sun = props => {
       />
       <Path
         d="M5 19l1.5-1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -101,7 +101,7 @@ const Sun = props => {
       />
       <Path
         d="M17.5 6.5L19 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

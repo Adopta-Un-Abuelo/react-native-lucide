@@ -38,7 +38,7 @@ const WrapText = props => {
         y1="6"
         x2="21"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const WrapText = props => {
       />
       <Path
         d="M3 12h15a3 3 0 110 6h-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const WrapText = props => {
       />
       <Polyline
         points="16 16 14 18 16 20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const WrapText = props => {
         y1="18"
         x2="10"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

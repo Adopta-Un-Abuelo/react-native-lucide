@@ -35,7 +35,7 @@ const Move = props => {
     >
       <Polyline
         points="5 9 2 12 5 15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Move = props => {
       />
       <Polyline
         points="9 5 12 2 15 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Move = props => {
       />
       <Polyline
         points="15 19 12 22 9 19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Move = props => {
       />
       <Polyline
         points="19 9 22 12 19 15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -70,7 +70,7 @@ const Move = props => {
         y1="12"
         x2="22"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -81,7 +81,7 @@ const Move = props => {
         y1="2"
         x2="12"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

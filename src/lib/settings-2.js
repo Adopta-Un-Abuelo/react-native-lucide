@@ -35,7 +35,7 @@ const Settings2 = props => {
     >
       <Path
         d="M20 7h-9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Settings2 = props => {
       />
       <Path
         d="M14 17H5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -53,7 +53,7 @@ const Settings2 = props => {
         cx="17"
         cy="17"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -63,7 +63,7 @@ const Settings2 = props => {
         cx="7"
         cy="7"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

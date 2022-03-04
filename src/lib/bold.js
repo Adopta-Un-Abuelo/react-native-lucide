@@ -35,7 +35,7 @@ const Bold = props => {
     >
       <Path
         d="M6 4h8a4 4 0 014 4 4 4 0 01-4 4H6z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Bold = props => {
       />
       <Path
         d="M6 12h9a4 4 0 014 4 4 4 0 01-4 4H6z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

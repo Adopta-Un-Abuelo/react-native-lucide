@@ -40,7 +40,7 @@ var FlagTriangleLeft = function FlagTriangleLeft(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 22V2L7 7l10 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

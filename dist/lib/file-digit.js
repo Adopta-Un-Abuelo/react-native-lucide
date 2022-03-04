@@ -40,7 +40,7 @@ var FileDigit = function FileDigit(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 22h14a2 2 0 002-2V7.5L14.5 2H6a2 2 0 00-2 2v4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var FileDigit = function FileDigit(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 2v6h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var FileDigit = function FileDigit(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 12h2v6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -67,7 +67,7 @@ var FileDigit = function FileDigit(props) {
       y: '12',
       width: '4',
       height: '6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -75,7 +75,7 @@ var FileDigit = function FileDigit(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 18h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

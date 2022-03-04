@@ -40,7 +40,7 @@ var History = function History(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 3v5h5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var History = function History(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3.05 13A9 9 0 106 5.3L3 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var History = function History(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 7v5l4 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

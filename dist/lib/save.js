@@ -40,7 +40,7 @@ var Save = function Save(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Save = function Save(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 21 17 13 7 13 7 21',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Save = function Save(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '7 3 7 8 15 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

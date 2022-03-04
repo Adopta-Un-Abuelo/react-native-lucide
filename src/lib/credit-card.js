@@ -40,7 +40,7 @@ const CreditCard = props => {
         height="16"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const CreditCard = props => {
         y1="10"
         x2="23"
         y2="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

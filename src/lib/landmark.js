@@ -38,7 +38,7 @@ const Landmark = props => {
         y1="22"
         x2="21"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Landmark = props => {
         y1="18"
         x2="6"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const Landmark = props => {
         y1="18"
         x2="10"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const Landmark = props => {
         y1="18"
         x2="14"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -82,7 +82,7 @@ const Landmark = props => {
         y1="18"
         x2="18"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -90,7 +90,7 @@ const Landmark = props => {
       />
       <Polygon
         points="12 2 20 7 4 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

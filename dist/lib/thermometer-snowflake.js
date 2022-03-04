@@ -40,7 +40,7 @@ var ThermometerSnowflake = function ThermometerSnowflake(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 12h10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ThermometerSnowflake = function ThermometerSnowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 4v16',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var ThermometerSnowflake = function ThermometerSnowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 9l3 3-3 3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var ThermometerSnowflake = function ThermometerSnowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 6L9 9 6 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var ThermometerSnowflake = function ThermometerSnowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 18l3-3 1.5 1.5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -80,7 +80,7 @@ var ThermometerSnowflake = function ThermometerSnowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 2a2 2 0 00-2 2v10.5a4 4 0 104 0V4a2 2 0 00-2-2z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

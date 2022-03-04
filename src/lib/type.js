@@ -35,7 +35,7 @@ const Type = props => {
     >
       <Polyline
         points="4 7 4 4 20 4 20 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Type = props => {
         y1="20"
         x2="15"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const Type = props => {
         y1="4"
         x2="12"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

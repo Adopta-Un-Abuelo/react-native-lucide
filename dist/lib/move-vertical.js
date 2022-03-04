@@ -40,7 +40,7 @@ var MoveVertical = function MoveVertical(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '8 18 12 22 16 18',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var MoveVertical = function MoveVertical(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '8 6 12 2 16 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var MoveVertical = function MoveVertical(props) {
       y1: '2',
       x2: '12',
       y2: '22',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const Gem = props => {
     >
       <Polygon
         points="6 3 18 3 22 9 12 22 2 9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Gem = props => {
       />
       <Path
         d="M12 22l4-13-3-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Gem = props => {
       />
       <Path
         d="M12 22L8 9l3-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Gem = props => {
       />
       <Path
         d="M2 9h20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

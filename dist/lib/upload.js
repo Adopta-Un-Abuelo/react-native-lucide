@@ -40,7 +40,7 @@ var Upload = function Upload(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Upload = function Upload(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 8 12 3 7 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var Upload = function Upload(props) {
       y1: '3',
       x2: '12',
       y2: '15',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

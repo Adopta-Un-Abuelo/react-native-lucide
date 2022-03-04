@@ -35,7 +35,7 @@ const RockingChair = props => {
     >
       <Polyline
         points="3.5 2 6.5 12.5 18 12.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const RockingChair = props => {
         y1="12.5"
         x2="5.5"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const RockingChair = props => {
         y1="12.5"
         x2="18.5"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const RockingChair = props => {
       />
       <Path
         d="M2.75 18a13 13 0 0018.5 0"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

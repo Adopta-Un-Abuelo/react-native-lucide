@@ -37,7 +37,7 @@ const Voicemail = props => {
         cx="5.5"
         cy="11.5"
         r="4.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Voicemail = props => {
         cx="18.5"
         cy="11.5"
         r="4.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const Voicemail = props => {
         y1="16"
         x2="18.5"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

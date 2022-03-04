@@ -40,7 +40,7 @@ const Tv = props => {
         height="15"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Tv = props => {
       />
       <Polyline
         points="17 2 12 7 7 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

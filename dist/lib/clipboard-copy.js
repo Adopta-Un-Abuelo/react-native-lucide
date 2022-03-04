@@ -40,7 +40,7 @@ var ClipboardCopy = function ClipboardCopy(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 4h2a2 2 0 012 2v4M8 4H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2v-2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var ClipboardCopy = function ClipboardCopy(props) {
       height: '4',
       rx: '1',
       ry: '1',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -61,7 +61,7 @@ var ClipboardCopy = function ClipboardCopy(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 14H11',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -69,7 +69,7 @@ var ClipboardCopy = function ClipboardCopy(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M15 10l-4 4 4 4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

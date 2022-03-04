@@ -35,7 +35,7 @@ const UserCheck = props => {
     >
       <Path
         d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const UserCheck = props => {
         cx="8.5"
         cy="7"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -53,7 +53,7 @@ const UserCheck = props => {
       />
       <Polyline
         points="17 11 19 13 23 9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

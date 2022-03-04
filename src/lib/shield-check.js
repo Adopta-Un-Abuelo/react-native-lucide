@@ -35,7 +35,7 @@ const ShieldCheck = props => {
     >
       <Path
         d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ShieldCheck = props => {
       />
       <Path
         d="M9 12l2 2 4-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

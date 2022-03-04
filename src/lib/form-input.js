@@ -39,7 +39,7 @@ const FormInput = props => {
         width="20"
         height="12"
         rx="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const FormInput = props => {
       />
       <Path
         d="M12 12h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const FormInput = props => {
       />
       <Path
         d="M17 12h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -63,7 +63,7 @@ const FormInput = props => {
       />
       <Path
         d="M7 12h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

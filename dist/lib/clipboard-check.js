@@ -40,7 +40,7 @@ var ClipboardCheck = function ClipboardCheck(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ClipboardCheck = function ClipboardCheck(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M15 2H9a1 1 0 00-1 1v2a1 1 0 001 1h6a1 1 0 001-1V3a1 1 0 00-1-1z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var ClipboardCheck = function ClipboardCheck(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 13l2 2 4-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

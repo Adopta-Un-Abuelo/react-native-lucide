@@ -40,7 +40,7 @@ var Option = function Option(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 3h6l6 18h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Option = function Option(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 3h7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

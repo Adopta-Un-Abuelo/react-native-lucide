@@ -37,7 +37,7 @@ const Smile = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const Smile = props => {
       />
       <Path
         d="M8 14s1.5 2 4 2 4-2 4-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const Smile = props => {
         y1="9"
         x2="9.01"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Smile = props => {
         y1="9"
         x2="15.01"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

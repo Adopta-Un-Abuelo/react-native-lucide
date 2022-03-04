@@ -40,7 +40,7 @@ var RussianRuble = function RussianRuble(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 11c5.333 0 5.333-8 0-8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var RussianRuble = function RussianRuble(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 11h8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var RussianRuble = function RussianRuble(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 15h8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var RussianRuble = function RussianRuble(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 21V3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var RussianRuble = function RussianRuble(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 3h5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

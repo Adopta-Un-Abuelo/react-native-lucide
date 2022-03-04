@@ -37,7 +37,7 @@ const Coins = props => {
         cx="8"
         cy="8"
         r="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const Coins = props => {
       />
       <Path
         d="M19.5 9.94a7 7 0 11-9.56 9.56"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -53,7 +53,7 @@ const Coins = props => {
       />
       <Path
         d="M7 6h1v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -61,7 +61,7 @@ const Coins = props => {
       />
       <Path
         d="M17.3 14.3l.7.7-2.8 2.8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -35,7 +35,7 @@ const Wind = props => {
     >
       <Path
         d="M17.7 7.7a2.5 2.5 0 111.8 4.3H2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Wind = props => {
       />
       <Path
         d="M9.6 4.6A2 2 0 1111 8H2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Wind = props => {
       />
       <Path
         d="M12.6 19.4A2 2 0 1014 16H2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

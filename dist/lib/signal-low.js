@@ -40,7 +40,7 @@ var SignalLow = function SignalLow(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 20h.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var SignalLow = function SignalLow(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 20v-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const ScreenShareOff = props => {
     >
       <Path
         d="M13 3H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2v-3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ScreenShareOff = props => {
       />
       <Path
         d="M8 21h8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const ScreenShareOff = props => {
       />
       <Path
         d="M12 17v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const ScreenShareOff = props => {
       />
       <Path
         d="M22 3l-5 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const ScreenShareOff = props => {
       />
       <Path
         d="M17 3l5 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

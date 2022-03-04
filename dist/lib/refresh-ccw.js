@@ -40,7 +40,7 @@ var RefreshCcw = function RefreshCcw(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 2v6h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var RefreshCcw = function RefreshCcw(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 12A9 9 0 006 5.3L3 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var RefreshCcw = function RefreshCcw(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 22v-6h-6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var RefreshCcw = function RefreshCcw(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 12a9 9 0 0015 6.7l3-2.7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

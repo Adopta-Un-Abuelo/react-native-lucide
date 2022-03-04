@@ -35,7 +35,7 @@ const FileSearch = props => {
     >
       <Path
         d="M4 22h14a2 2 0 002-2V7.5L14.5 2H6a2 2 0 00-2 2v3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const FileSearch = props => {
       />
       <Path
         d="M14 2v6h6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const FileSearch = props => {
       />
       <Path
         d="M5 17a3 3 0 100-6 3 3 0 000 6z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const FileSearch = props => {
       />
       <Path
         d="M9 18l-1.5-1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

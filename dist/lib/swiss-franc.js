@@ -40,7 +40,7 @@ var SwissFranc = function SwissFranc(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 21V3h8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var SwissFranc = function SwissFranc(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 16h9',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var SwissFranc = function SwissFranc(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 9.5h7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

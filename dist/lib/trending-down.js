@@ -40,7 +40,7 @@ var TrendingDown = function TrendingDown(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '23 18 13.5 8.5 8.5 13.5 1 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var TrendingDown = function TrendingDown(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 18 23 18 23 12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

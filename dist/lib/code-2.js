@@ -40,7 +40,7 @@ var Code2 = function Code2(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 16l4-4-4-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Code2 = function Code2(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 8l-4 4 4 4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Code2 = function Code2(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14.5 4l-5 16',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const MoveDiagonal2 = props => {
     >
       <Polyline
         points="5 11 5 5 11 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const MoveDiagonal2 = props => {
       />
       <Polyline
         points="19 13 19 19 13 19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const MoveDiagonal2 = props => {
         y1="5"
         x2="19"
         y2="19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

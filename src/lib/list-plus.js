@@ -35,7 +35,7 @@ const ListPlus = props => {
     >
       <Path
         d="M11 12H3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ListPlus = props => {
       />
       <Path
         d="M16 6H3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const ListPlus = props => {
       />
       <Path
         d="M16 18H3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const ListPlus = props => {
       />
       <Path
         d="M18 9v6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const ListPlus = props => {
       />
       <Path
         d="M21 12h-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

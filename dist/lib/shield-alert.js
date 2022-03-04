@@ -40,7 +40,7 @@ var ShieldAlert = function ShieldAlert(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ShieldAlert = function ShieldAlert(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 8v4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var ShieldAlert = function ShieldAlert(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 16h.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

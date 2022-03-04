@@ -40,7 +40,7 @@ var Bookmark = function Bookmark(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M19 21l-7-4-7 4V5a2 2 0 012-2h10a2 2 0 012 2v16z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

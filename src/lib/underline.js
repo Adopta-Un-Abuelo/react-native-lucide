@@ -35,7 +35,7 @@ const Underline = props => {
     >
       <Path
         d="M6 4v6a6 6 0 0012 0V4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Underline = props => {
         y1="20"
         x2="20"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

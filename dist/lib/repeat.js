@@ -40,7 +40,7 @@ var Repeat = function Repeat(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 2l4 4-4 4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Repeat = function Repeat(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 11v-1a4 4 0 014-4h14',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Repeat = function Repeat(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 22l-4-4 4-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var Repeat = function Repeat(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 13v1a4 4 0 01-4 4H3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

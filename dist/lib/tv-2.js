@@ -40,7 +40,7 @@ var Tv2 = function Tv2(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 21h10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -52,7 +52,7 @@ var Tv2 = function Tv2(props) {
       width: '20',
       height: '14',
       rx: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

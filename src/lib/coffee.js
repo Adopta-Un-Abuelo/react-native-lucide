@@ -35,7 +35,7 @@ const Coffee = props => {
     >
       <Path
         d="M18 8h1a4 4 0 010 8h-1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Coffee = props => {
       />
       <Path
         d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const Coffee = props => {
         y1="1"
         x2="6"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const Coffee = props => {
         y1="1"
         x2="10"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -76,7 +76,7 @@ const Coffee = props => {
         y1="1"
         x2="14"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

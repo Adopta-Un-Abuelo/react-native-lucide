@@ -35,7 +35,7 @@ const BluetoothSearching = props => {
     >
       <Path
         d="M7 7l10 10-5 5V2l5 5L7 17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const BluetoothSearching = props => {
       />
       <Path
         d="M20.83 14.83a4 4 0 000-5.66"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const BluetoothSearching = props => {
       />
       <Path
         d="M18 12h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

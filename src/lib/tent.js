@@ -35,7 +35,7 @@ const Tent = props => {
     >
       <Path
         d="M19 20L10 4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Tent = props => {
       />
       <Path
         d="M5 20l9-16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Tent = props => {
       />
       <Path
         d="M3 20h18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Tent = props => {
       />
       <Path
         d="M12 15l-3 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Tent = props => {
       />
       <Path
         d="M12 15l3 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

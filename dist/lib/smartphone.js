@@ -45,7 +45,7 @@ var Smartphone = function Smartphone(props) {
       height: '20',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var Smartphone = function Smartphone(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 18h.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const CornerRightUp = props => {
     >
       <Polyline
         points="10 9 15 4 20 9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const CornerRightUp = props => {
       />
       <Path
         d="M4 20h7a4 4 0 004-4V4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

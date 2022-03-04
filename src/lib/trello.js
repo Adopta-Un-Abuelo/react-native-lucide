@@ -40,7 +40,7 @@ const Trello = props => {
         height="18"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Trello = props => {
         y="7"
         width="3"
         height="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -62,7 +62,7 @@ const Trello = props => {
         y="7"
         width="3"
         height="5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

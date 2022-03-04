@@ -35,7 +35,7 @@ const ChevronLast = props => {
     >
       <Polyline
         points="7 18 13 12 7 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ChevronLast = props => {
       />
       <Path
         d="M17 6v12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

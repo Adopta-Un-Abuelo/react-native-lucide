@@ -38,7 +38,7 @@ const Timer = props => {
         x2="14"
         y1="2"
         y2="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Timer = props => {
         x2="15"
         y1="14"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Timer = props => {
         cx="12"
         cy="14"
         r="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

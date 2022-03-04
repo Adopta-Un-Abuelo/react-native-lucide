@@ -37,7 +37,7 @@ const GitCommit = props => {
         cx="12"
         cy="12"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const GitCommit = props => {
         y1="12"
         x2="9"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const GitCommit = props => {
         y1="12"
         x2="21"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -35,7 +35,7 @@ const ThermometerSun = props => {
     >
       <Path
         d="M12 9a4 4 0 00-2 7.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ThermometerSun = props => {
       />
       <Path
         d="M12 3v2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const ThermometerSun = props => {
       />
       <Path
         d="M6.6 18.4l-1.4 1.4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const ThermometerSun = props => {
       />
       <Path
         d="M18 2a2 2 0 012 2v10.5a4 4 0 11-4 0V4c0-1.1.9-2 2-2z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const ThermometerSun = props => {
       />
       <Path
         d="M4 13H2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -75,7 +75,7 @@ const ThermometerSun = props => {
       />
       <Path
         d="M6.6 7.6L5.2 6.2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

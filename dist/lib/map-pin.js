@@ -40,7 +40,7 @@ var MapPin = function MapPin(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var MapPin = function MapPin(props) {
       cx: '12',
       cy: '10',
       r: '3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

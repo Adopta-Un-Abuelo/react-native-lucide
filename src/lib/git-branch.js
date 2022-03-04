@@ -38,7 +38,7 @@ const GitBranch = props => {
         y1="3"
         x2="6"
         y2="15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const GitBranch = props => {
         cx="18"
         cy="6"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const GitBranch = props => {
         cx="6"
         cy="18"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -66,7 +66,7 @@ const GitBranch = props => {
       />
       <Path
         d="M18 9a9 9 0 01-9 9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

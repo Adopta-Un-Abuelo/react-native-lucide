@@ -40,7 +40,7 @@ var BluetoothOff = function BluetoothOff(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 17l-5 5V12l-5 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var BluetoothOff = function BluetoothOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 2l20 20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var BluetoothOff = function BluetoothOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14.5 9.5L17 7l-5-5v4.5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

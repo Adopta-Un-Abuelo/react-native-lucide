@@ -40,7 +40,7 @@ var Cloudy = function Cloudy(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17.5 21a4.5 4.5 0 100-9h-1.8A7 7 0 109 21h8.5z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Cloudy = function Cloudy(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 10c0-1.5-1.5-3-3.5-3H17c-.7-2.3-2.9-4-5.4-4-2.7 0-5 2-5.5 4.5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

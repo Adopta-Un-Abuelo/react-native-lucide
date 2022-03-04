@@ -37,7 +37,7 @@ const HelpCircle = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const HelpCircle = props => {
       />
       <Path
         d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const HelpCircle = props => {
         y1="17"
         x2="12.01"
         y2="17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

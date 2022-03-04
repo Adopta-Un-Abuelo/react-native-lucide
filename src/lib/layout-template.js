@@ -35,7 +35,7 @@ const LayoutTemplate = props => {
     >
       <Path
         d="M21 3H3v7h18V3z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const LayoutTemplate = props => {
       />
       <Path
         d="M21 14h-5v7h5v-7z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const LayoutTemplate = props => {
       />
       <Path
         d="M12 14H3v7h9v-7z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

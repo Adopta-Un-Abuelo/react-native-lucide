@@ -35,7 +35,7 @@ const ImagePlus = props => {
     >
       <Path
         d="M21 11v8a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ImagePlus = props => {
       />
       <Path
         d="M8.5 10a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const ImagePlus = props => {
       />
       <Path
         d="M21 15l-5-5L5 21"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const ImagePlus = props => {
       />
       <Path
         d="M19 2v6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const ImagePlus = props => {
       />
       <Path
         d="M22 5h-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

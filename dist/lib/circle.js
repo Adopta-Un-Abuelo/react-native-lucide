@@ -42,7 +42,7 @@ var Circle = function Circle(props) {
       cx: '12',
       cy: '12',
       r: '10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

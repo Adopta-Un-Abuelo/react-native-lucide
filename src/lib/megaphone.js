@@ -35,7 +35,7 @@ const Megaphone = props => {
     >
       <Path
         d="M3 11l18-5v12L3 14v-3z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Megaphone = props => {
       />
       <Path
         d="M11.6 16.8a3 3 0 11-5.8-1.6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

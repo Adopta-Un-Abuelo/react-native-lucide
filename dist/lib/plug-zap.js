@@ -40,7 +40,7 @@ var PlugZap = function PlugZap(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M13 2l-2 2.5h3L12 7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var PlugZap = function PlugZap(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 22v-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var PlugZap = function PlugZap(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 13v-2.5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var PlugZap = function PlugZap(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 12.5v-2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var PlugZap = function PlugZap(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 12.5v-2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -80,7 +80,7 @@ var PlugZap = function PlugZap(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 15a2 2 0 00-2-2h-4a2 2 0 00-2 2v2a2 2 0 002 2h4a2 2 0 002-2v-2z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

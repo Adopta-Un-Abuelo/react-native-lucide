@@ -35,7 +35,7 @@ const Asterisk = props => {
     >
       <Path
         d="M12 6v12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Asterisk = props => {
       />
       <Path
         d="M17.196 9L6.804 15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Asterisk = props => {
       />
       <Path
         d="M6.804 9l10.392 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

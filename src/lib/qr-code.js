@@ -38,7 +38,7 @@ const QrCode = props => {
         y="2"
         width="8"
         height="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const QrCode = props => {
       />
       <Path
         d="M6 6h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const QrCode = props => {
         y="2"
         width="8"
         height="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const QrCode = props => {
       />
       <Path
         d="M18 6h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -76,7 +76,7 @@ const QrCode = props => {
         y="14"
         width="8"
         height="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -84,7 +84,7 @@ const QrCode = props => {
       />
       <Path
         d="M6 18h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -92,7 +92,7 @@ const QrCode = props => {
       />
       <Path
         d="M14 14h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -100,7 +100,7 @@ const QrCode = props => {
       />
       <Path
         d="M18 18h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -108,7 +108,7 @@ const QrCode = props => {
       />
       <Path
         d="M18 22h4v-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -116,7 +116,7 @@ const QrCode = props => {
       />
       <Path
         d="M14 18v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -124,7 +124,7 @@ const QrCode = props => {
       />
       <Path
         d="M22 14h-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

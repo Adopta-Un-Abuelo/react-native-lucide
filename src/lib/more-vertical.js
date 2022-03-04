@@ -37,7 +37,7 @@ const MoreVertical = props => {
         cx="12"
         cy="12"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const MoreVertical = props => {
         cx="12"
         cy="5"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const MoreVertical = props => {
         cx="12"
         cy="19"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

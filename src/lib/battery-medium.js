@@ -40,7 +40,7 @@ const BatteryMedium = props => {
         height="10"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const BatteryMedium = props => {
         x2="22"
         y1="11"
         y2="13"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -62,7 +62,7 @@ const BatteryMedium = props => {
         x2="6"
         y1="10"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const BatteryMedium = props => {
         x2="10"
         y1="10"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

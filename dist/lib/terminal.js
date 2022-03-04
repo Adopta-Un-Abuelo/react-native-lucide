@@ -40,7 +40,7 @@ var Terminal = function Terminal(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '4 17 10 11 4 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -51,7 +51,7 @@ var Terminal = function Terminal(props) {
       y1: '19',
       x2: '20',
       y2: '19',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

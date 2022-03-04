@@ -35,7 +35,7 @@ const BluetoothOff = props => {
     >
       <Path
         d="M17 17l-5 5V12l-5 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const BluetoothOff = props => {
       />
       <Path
         d="M2 2l20 20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const BluetoothOff = props => {
       />
       <Path
         d="M14.5 9.5L17 7l-5-5v4.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -45,7 +45,7 @@ var Album = function Album(props) {
       height: '18',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var Album = function Album(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '11 3 11 11 14 8 17 11 17 3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

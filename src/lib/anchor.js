@@ -37,7 +37,7 @@ const Anchor = props => {
         cx="12"
         cy="5"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Anchor = props => {
         y1="22"
         x2="12"
         y2="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const Anchor = props => {
       />
       <Path
         d="M5 12H2a10 10 0 0020 0h-3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

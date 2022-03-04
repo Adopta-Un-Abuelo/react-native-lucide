@@ -40,7 +40,7 @@ var ChevronsDownUp = function ChevronsDownUp(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 20l5-5 5 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ChevronsDownUp = function ChevronsDownUp(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 4l5 5 5-5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

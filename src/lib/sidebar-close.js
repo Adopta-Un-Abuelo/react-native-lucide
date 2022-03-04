@@ -40,7 +40,7 @@ const SidebarClose = props => {
         height="18"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const SidebarClose = props => {
         y1="3"
         x2="9"
         y2="21"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const SidebarClose = props => {
       />
       <Path
         d="M17 16l-4-4 4-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

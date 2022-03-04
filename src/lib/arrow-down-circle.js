@@ -37,7 +37,7 @@ const ArrowDownCircle = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const ArrowDownCircle = props => {
       />
       <Polyline
         points="8 12 12 16 16 12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const ArrowDownCircle = props => {
         y1="8"
         x2="12"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

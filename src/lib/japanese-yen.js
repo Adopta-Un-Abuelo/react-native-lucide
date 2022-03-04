@@ -35,7 +35,7 @@ const JapaneseYen = props => {
     >
       <Path
         d="M12 9.5V21m0-11.5L6 3m6 6.5L18 3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const JapaneseYen = props => {
       />
       <Path
         d="M6 15h12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const JapaneseYen = props => {
       />
       <Path
         d="M6 11h12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

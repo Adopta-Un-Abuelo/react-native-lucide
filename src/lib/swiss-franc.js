@@ -35,7 +35,7 @@ const SwissFranc = props => {
     >
       <Path
         d="M10 21V3h8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const SwissFranc = props => {
       />
       <Path
         d="M6 16h9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const SwissFranc = props => {
       />
       <Path
         d="M10 9.5h7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

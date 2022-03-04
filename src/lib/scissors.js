@@ -37,7 +37,7 @@ const Scissors = props => {
         cx="6"
         cy="6"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Scissors = props => {
         cx="6"
         cy="18"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const Scissors = props => {
         y1="4"
         x2="8.12"
         y2="15.88"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -69,7 +69,7 @@ const Scissors = props => {
         y1="14.48"
         x2="20"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -80,7 +80,7 @@ const Scissors = props => {
         y1="8.12"
         x2="12"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

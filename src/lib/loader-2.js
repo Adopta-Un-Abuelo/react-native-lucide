@@ -35,7 +35,7 @@ const Loader2 = props => {
     >
       <Path
         d="M21 12a9 9 0 11-6.219-8.56"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

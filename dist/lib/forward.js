@@ -40,7 +40,7 @@ var Forward = function Forward(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '15 17 20 12 15 7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Forward = function Forward(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 18v-2a4 4 0 014-4h12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

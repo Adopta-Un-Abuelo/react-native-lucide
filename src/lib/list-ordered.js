@@ -38,7 +38,7 @@ const ListOrdered = props => {
         y1="6"
         x2="21"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const ListOrdered = props => {
         y1="12"
         x2="21"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const ListOrdered = props => {
         y1="18"
         x2="21"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -68,7 +68,7 @@ const ListOrdered = props => {
       />
       <Path
         d="M4 6h1v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -76,7 +76,7 @@ const ListOrdered = props => {
       />
       <Path
         d="M4 10h2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -84,7 +84,7 @@ const ListOrdered = props => {
       />
       <Path
         d="M6 18H4c0-1 2-2 2-3s-1-1.5-2-1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

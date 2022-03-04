@@ -40,7 +40,7 @@ var Eye = function Eye(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var Eye = function Eye(props) {
       cx: '12',
       cy: '12',
       r: '3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

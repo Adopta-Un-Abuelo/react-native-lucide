@@ -45,7 +45,7 @@ var FunctionSquare = function FunctionSquare(props) {
       height: '18',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var FunctionSquare = function FunctionSquare(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -61,7 +61,7 @@ var FunctionSquare = function FunctionSquare(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 11.2h5.7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

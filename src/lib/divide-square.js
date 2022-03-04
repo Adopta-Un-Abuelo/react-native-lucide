@@ -40,7 +40,7 @@ const DivideSquare = props => {
         height="18"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const DivideSquare = props => {
         y1="12"
         x2="16"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -62,7 +62,7 @@ const DivideSquare = props => {
         y1="16"
         x2="12"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const DivideSquare = props => {
         y1="8"
         x2="12"
         y2="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -40,7 +40,7 @@ const Film = props => {
         height="20"
         rx="2.18"
         ry="2.18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Film = props => {
         y1="2"
         x2="7"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -62,7 +62,7 @@ const Film = props => {
         y1="2"
         x2="17"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const Film = props => {
         y1="12"
         x2="22"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -84,7 +84,7 @@ const Film = props => {
         y1="7"
         x2="7"
         y2="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -95,7 +95,7 @@ const Film = props => {
         y1="17"
         x2="7"
         y2="17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -106,7 +106,7 @@ const Film = props => {
         y1="17"
         x2="22"
         y2="17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -117,7 +117,7 @@ const Film = props => {
         y1="7"
         x2="22"
         y2="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

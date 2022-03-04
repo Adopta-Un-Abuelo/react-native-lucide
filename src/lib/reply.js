@@ -35,7 +35,7 @@ const Reply = props => {
     >
       <Polyline
         points="9 17 4 12 9 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Reply = props => {
       />
       <Path
         d="M20 18v-2a4 4 0 00-4-4H4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

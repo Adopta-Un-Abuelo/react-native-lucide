@@ -42,7 +42,7 @@ var Clock3 = function Clock3(props) {
       cx: '12',
       cy: '12',
       r: '10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var Clock3 = function Clock3(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '12 6 12 12 16.5 12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

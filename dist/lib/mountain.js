@@ -40,7 +40,7 @@ var Mountain = function Mountain(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M8 3l4 8 5-5 5 15H2L8 3z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

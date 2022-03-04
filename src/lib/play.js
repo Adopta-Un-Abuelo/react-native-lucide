@@ -35,7 +35,7 @@ const Play = props => {
     >
       <Polygon
         points="5 3 19 12 5 21 5 3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

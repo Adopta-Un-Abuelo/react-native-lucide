@@ -35,7 +35,7 @@ const Shrink = props => {
     >
       <Path
         d="M15 15l6 6m-6-6v4.8m0-4.8h4.8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Shrink = props => {
       />
       <Path
         d="M9 19.8V15m0 0H4.2M9 15l-6 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Shrink = props => {
       />
       <Path
         d="M15 4.2V9m0 0h4.8M15 9l6-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Shrink = props => {
       />
       <Path
         d="M9 4.2V9m0 0H4.2M9 9L3 3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -38,7 +38,7 @@ const Loader = props => {
         y1="2"
         x2="12"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Loader = props => {
         y1="18"
         x2="12"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const Loader = props => {
         y1="4.93"
         x2="7.76"
         y2="7.76"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const Loader = props => {
         y1="16.24"
         x2="19.07"
         y2="19.07"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -82,7 +82,7 @@ const Loader = props => {
         y1="12"
         x2="6"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -93,7 +93,7 @@ const Loader = props => {
         y1="12"
         x2="22"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -104,7 +104,7 @@ const Loader = props => {
         y1="19.07"
         x2="7.76"
         y2="16.24"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -115,7 +115,7 @@ const Loader = props => {
         y1="7.76"
         x2="19.07"
         y2="4.93"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

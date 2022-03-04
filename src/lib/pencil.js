@@ -38,7 +38,7 @@ const Pencil = props => {
         y1="2"
         x2="22"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Pencil = props => {
       />
       <Path
         d="M7.5 20.5L19 9l-4-4L3.5 16.5 2 22z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

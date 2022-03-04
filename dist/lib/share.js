@@ -40,7 +40,7 @@ var Share = function Share(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Share = function Share(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '16 6 12 2 8 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var Share = function Share(props) {
       y1: '2',
       x2: '12',
       y2: '15',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

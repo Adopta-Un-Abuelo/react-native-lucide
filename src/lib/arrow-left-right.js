@@ -35,7 +35,7 @@ const ArrowLeftRight = props => {
     >
       <Polyline
         points="17 11 21 7 17 3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const ArrowLeftRight = props => {
         y1="7"
         x2="9"
         y2="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const ArrowLeftRight = props => {
       />
       <Polyline
         points="7 21 3 17 7 13"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const ArrowLeftRight = props => {
         y1="17"
         x2="3"
         y2="17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

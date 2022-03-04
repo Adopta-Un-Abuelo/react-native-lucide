@@ -40,7 +40,7 @@ var Volume = function Volume(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '11 5 6 9 2 9 2 15 6 15 11 19 11 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

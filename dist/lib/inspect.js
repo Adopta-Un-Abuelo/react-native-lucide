@@ -40,7 +40,7 @@ var Inspect = function Inspect(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M19 11V4a2 2 0 00-2-2H4a2 2 0 00-2 2v13a2 2 0 002 2h7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Inspect = function Inspect(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 12l4.166 10 1.48-4.355L22 16.166 12 12z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Inspect = function Inspect(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 18l3 3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

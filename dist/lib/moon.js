@@ -40,7 +40,7 @@ var Moon = function Moon(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

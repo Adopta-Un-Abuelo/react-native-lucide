@@ -40,7 +40,7 @@ var Vibrate = function Vibrate(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 8l2 2-2 2 2 2-2 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Vibrate = function Vibrate(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 8l-2 2 2 2-2 2 2 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -60,7 +60,7 @@ var Vibrate = function Vibrate(props) {
       width: '8',
       height: '14',
       rx: '1',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

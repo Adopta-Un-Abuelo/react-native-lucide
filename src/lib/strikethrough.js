@@ -35,7 +35,7 @@ const Strikethrough = props => {
     >
       <Path
         d="M16 4H9a3 3 0 00-2.83 4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Strikethrough = props => {
       />
       <Path
         d="M14 12a4 4 0 010 8H6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const Strikethrough = props => {
         y1="12"
         x2="20"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

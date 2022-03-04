@@ -40,7 +40,7 @@ var TimerOff = function TimerOff(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 2h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var TimerOff = function TimerOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7.43 7.433A8 8 0 0118.566 18.57M4.582 11A8 8 0 0015 21.419',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var TimerOff = function TimerOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 2l20 20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var TimerOff = function TimerOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 12v-2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

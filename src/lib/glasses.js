@@ -37,7 +37,7 @@ const Glasses = props => {
         cx="6"
         cy="15"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const Glasses = props => {
         cx="18"
         cy="15"
         r="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const Glasses = props => {
       />
       <Path
         d="M14 15a2 2 0 00-2-2 2 2 0 00-2 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -63,7 +63,7 @@ const Glasses = props => {
       />
       <Path
         d="M2.5 13L5 7c.7-1.3 1.4-2 3-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const Glasses = props => {
       />
       <Path
         d="M21.5 13L19 7c-.7-1.3-1.5-2-3-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

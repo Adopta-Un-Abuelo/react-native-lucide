@@ -35,7 +35,7 @@ const RussianRuble = props => {
     >
       <Path
         d="M14 11c5.333 0 5.333-8 0-8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const RussianRuble = props => {
       />
       <Path
         d="M6 11h8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const RussianRuble = props => {
       />
       <Path
         d="M6 15h8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const RussianRuble = props => {
       />
       <Path
         d="M9 21V3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const RussianRuble = props => {
       />
       <Path
         d="M9 3h5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

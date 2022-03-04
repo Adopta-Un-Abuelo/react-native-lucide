@@ -40,7 +40,7 @@ var Asterisk = function Asterisk(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 6v12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Asterisk = function Asterisk(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17.196 9L6.804 15',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Asterisk = function Asterisk(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6.804 9l10.392 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

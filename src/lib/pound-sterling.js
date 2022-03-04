@@ -35,7 +35,7 @@ const PoundSterling = props => {
     >
       <Path
         d="M18 7c0-5.333-8-5.333-8 0"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const PoundSterling = props => {
       />
       <Path
         d="M10 7v14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const PoundSterling = props => {
       />
       <Path
         d="M6 21h12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const PoundSterling = props => {
       />
       <Path
         d="M6 13h10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

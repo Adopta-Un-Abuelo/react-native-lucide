@@ -40,7 +40,7 @@ var Crop = function Crop(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6.13 1L6 16a2 2 0 002 2h15',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Crop = function Crop(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M1 6.13L16 6a2 2 0 012 2v15',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

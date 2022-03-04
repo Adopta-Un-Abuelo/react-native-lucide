@@ -35,7 +35,7 @@ const ShoppingBag = props => {
     >
       <Path
         d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const ShoppingBag = props => {
         y1="6"
         x2="21"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const ShoppingBag = props => {
       />
       <Path
         d="M16 10a4 4 0 01-8 0"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

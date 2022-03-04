@@ -43,7 +43,7 @@ var ArrowLeft = function ArrowLeft(props) {
       y1: '12',
       x2: '5',
       y2: '12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -51,7 +51,7 @@ var ArrowLeft = function ArrowLeft(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '12 19 5 12 12 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

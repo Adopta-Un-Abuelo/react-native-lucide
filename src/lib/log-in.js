@@ -35,7 +35,7 @@ const LogIn = props => {
     >
       <Path
         d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const LogIn = props => {
       />
       <Polyline
         points="10 17 15 12 10 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const LogIn = props => {
         y1="12"
         x2="3"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

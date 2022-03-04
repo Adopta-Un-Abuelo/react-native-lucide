@@ -43,7 +43,7 @@ var SeparatorVertical = function SeparatorVertical(props) {
       y1: '3',
       x2: '12',
       y2: '21',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -51,7 +51,7 @@ var SeparatorVertical = function SeparatorVertical(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '8 8 4 12 8 16',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var SeparatorVertical = function SeparatorVertical(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '16 16 20 12 16 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

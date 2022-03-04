@@ -40,7 +40,7 @@ var Languages = function Languages(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5 8l6 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Languages = function Languages(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 14l6-6 2-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Languages = function Languages(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 5h12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var Languages = function Languages(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 2h1',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var Languages = function Languages(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 22l-5-10-5 10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -80,7 +80,7 @@ var Languages = function Languages(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 18h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -35,7 +35,7 @@ const Link2Off = props => {
     >
       <Path
         d="M15 7h2a5 5 0 014 8M9 17H7A5 5 0 017 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Link2Off = props => {
         y1="12"
         x2="12"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const Link2Off = props => {
         y1="2"
         x2="22"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

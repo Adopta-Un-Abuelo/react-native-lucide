@@ -40,7 +40,7 @@ var Bell = function Bell(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Bell = function Bell(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M13.73 21a2 2 0 01-3.46 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

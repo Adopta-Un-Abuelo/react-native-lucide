@@ -44,7 +44,7 @@ var FormInput = function FormInput(props) {
       width: '20',
       height: '12',
       rx: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -52,7 +52,7 @@ var FormInput = function FormInput(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 12h.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -60,7 +60,7 @@ var FormInput = function FormInput(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 12h.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -68,7 +68,7 @@ var FormInput = function FormInput(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 12h.01',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

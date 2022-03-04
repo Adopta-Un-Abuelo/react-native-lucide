@@ -40,7 +40,7 @@ var Sigma = function Sigma(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 7V4H6l6 8-6 8h12v-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

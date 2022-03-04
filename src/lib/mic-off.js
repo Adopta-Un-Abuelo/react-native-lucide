@@ -38,7 +38,7 @@ const MicOff = props => {
         y1="1"
         x2="23"
         y2="23"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const MicOff = props => {
       />
       <Path
         d="M9 9v3a3 3 0 005.12 2.12M15 9.34V4a3 3 0 00-5.94-.6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const MicOff = props => {
       />
       <Path
         d="M17 16.95A7 7 0 015 12v-2m14 0v2a7 7 0 01-.11 1.23"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const MicOff = props => {
         y1="19"
         x2="12"
         y2="23"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -76,7 +76,7 @@ const MicOff = props => {
         y1="23"
         x2="16"
         y2="23"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

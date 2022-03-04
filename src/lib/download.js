@@ -35,7 +35,7 @@ const Download = props => {
     >
       <Path
         d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Download = props => {
       />
       <Polyline
         points="7 10 12 15 17 10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const Download = props => {
         y1="15"
         x2="12"
         y2="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

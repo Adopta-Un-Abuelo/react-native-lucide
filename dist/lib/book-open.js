@@ -40,7 +40,7 @@ var BookOpen = function BookOpen(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var BookOpen = function BookOpen(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

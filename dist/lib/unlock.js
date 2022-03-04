@@ -45,7 +45,7 @@ var Unlock = function Unlock(props) {
       height: '11',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var Unlock = function Unlock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 11V7a5 5 0 019.9-1',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

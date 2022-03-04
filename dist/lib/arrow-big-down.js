@@ -40,7 +40,7 @@ var ArrowBigDown = function ArrowBigDown(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 3h6v11h4l-7 7-7-7h4z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -42,7 +42,7 @@ var Copyleft = function Copyleft(props) {
       cx: '12',
       cy: '12',
       r: '10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var Copyleft = function Copyleft(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 9.35a4 4 0 110 5.3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

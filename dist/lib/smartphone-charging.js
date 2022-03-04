@@ -45,7 +45,7 @@ var SmartphoneCharging = function SmartphoneCharging(props) {
       height: '20',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var SmartphoneCharging = function SmartphoneCharging(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12.667 8L10 12h4l-2.667 4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -40,7 +40,7 @@ const ToggleRight = props => {
         height="14"
         rx="7"
         ry="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -50,7 +50,7 @@ const ToggleRight = props => {
         cx="16"
         cy="12"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

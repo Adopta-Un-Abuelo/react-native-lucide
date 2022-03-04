@@ -40,7 +40,7 @@ var CornerLeftDown = function CornerLeftDown(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '14 15 9 20 4 15',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var CornerLeftDown = function CornerLeftDown(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M20 4h-7a4 4 0 00-4 4v12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -40,7 +40,7 @@ var Binary = function Binary(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 4H6v6h4V4z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Binary = function Binary(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 14h-4v6h4v-6z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Binary = function Binary(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 4h2v6m-2 0h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var Binary = function Binary(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 14h2v6m-2 0h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

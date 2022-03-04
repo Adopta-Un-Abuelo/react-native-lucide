@@ -35,7 +35,7 @@ const Gift = props => {
     >
       <Polyline
         points="20 12 20 22 4 22 4 12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const Gift = props => {
         y="7"
         width="20"
         height="5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const Gift = props => {
         y1="22"
         x2="12"
         y2="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -65,7 +65,7 @@ const Gift = props => {
       />
       <Path
         d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const Gift = props => {
       />
       <Path
         d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

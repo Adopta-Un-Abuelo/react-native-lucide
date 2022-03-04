@@ -35,7 +35,7 @@ const Rewind = props => {
     >
       <Polygon
         points="11 19 2 12 11 5 11 19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Rewind = props => {
       />
       <Polygon
         points="22 19 13 12 22 5 22 19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

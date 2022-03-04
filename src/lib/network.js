@@ -38,7 +38,7 @@ const Network = props => {
         y="2"
         width="6"
         height="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Network = props => {
         y="16"
         width="6"
         height="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const Network = props => {
         y="16"
         width="6"
         height="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -68,7 +68,7 @@ const Network = props => {
       />
       <Path
         d="M12 8v4m0 0H5v4m7-4h7v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

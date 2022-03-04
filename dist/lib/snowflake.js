@@ -43,7 +43,7 @@ var Snowflake = function Snowflake(props) {
       y1: '12',
       x2: '22',
       y2: '12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -54,7 +54,7 @@ var Snowflake = function Snowflake(props) {
       y1: '2',
       x2: '12',
       y2: '22',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -62,7 +62,7 @@ var Snowflake = function Snowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M20 16l-4-4 4-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -70,7 +70,7 @@ var Snowflake = function Snowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 8l4 4-4 4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -78,7 +78,7 @@ var Snowflake = function Snowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 4l-4 4-4-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -86,7 +86,7 @@ var Snowflake = function Snowflake(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M8 20l4-4 4 4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

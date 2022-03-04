@@ -43,7 +43,7 @@ var WifiOff = function WifiOff(props) {
       y1: '2',
       x2: '22',
       y2: '22',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -51,7 +51,7 @@ var WifiOff = function WifiOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M8.5 16.5a5 5 0 017 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var WifiOff = function WifiOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 8.82a15 15 0 014.17-2.65',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -67,7 +67,7 @@ var WifiOff = function WifiOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10.66 5c4.01-.36 8.14.9 11.34 3.76',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -75,7 +75,7 @@ var WifiOff = function WifiOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16.85 11.25a10 10 0 012.22 1.68',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -83,7 +83,7 @@ var WifiOff = function WifiOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5 13a10 10 0 015.24-2.76',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -94,7 +94,7 @@ var WifiOff = function WifiOff(props) {
       y1: '20',
       x2: '12.01',
       y2: '20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -40,7 +40,7 @@ var AlarmClockOff = function AlarmClockOff(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M19.94 14A8 8 0 0010 5.25m8.13 12.89A8 8 0 116.87 6.86',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var AlarmClockOff = function AlarmClockOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 6l-3-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var AlarmClockOff = function AlarmClockOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 19l-2 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var AlarmClockOff = function AlarmClockOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 2l20 20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var AlarmClockOff = function AlarmClockOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 4L2 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

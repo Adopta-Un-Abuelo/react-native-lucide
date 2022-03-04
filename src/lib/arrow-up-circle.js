@@ -37,7 +37,7 @@ const ArrowUpCircle = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const ArrowUpCircle = props => {
       />
       <Polyline
         points="16 12 12 8 8 12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const ArrowUpCircle = props => {
         y1="16"
         x2="12"
         y2="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

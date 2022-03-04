@@ -35,7 +35,7 @@ const Option = props => {
     >
       <Path
         d="M3 3h6l6 18h6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Option = props => {
       />
       <Path
         d="M14 3h7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

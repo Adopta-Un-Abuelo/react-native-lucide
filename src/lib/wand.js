@@ -35,7 +35,7 @@ const Wand = props => {
     >
       <Path
         d="M15 4V2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Wand = props => {
       />
       <Path
         d="M15 16v-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Wand = props => {
       />
       <Path
         d="M8 9h2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Wand = props => {
       />
       <Path
         d="M20 9h2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const Wand = props => {
       />
       <Path
         d="M17.8 11.8L19 13"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -75,7 +75,7 @@ const Wand = props => {
       />
       <Path
         d="M15 9h0"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -83,7 +83,7 @@ const Wand = props => {
       />
       <Path
         d="M17.8 6.2L19 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -91,7 +91,7 @@ const Wand = props => {
       />
       <Path
         d="M3 21l9-9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -99,7 +99,7 @@ const Wand = props => {
       />
       <Path
         d="M12.2 6.2L11 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

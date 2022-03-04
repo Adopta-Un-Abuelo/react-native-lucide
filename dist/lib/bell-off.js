@@ -40,7 +40,7 @@ var BellOff = function BellOff(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M13.73 21a2 2 0 01-3.46 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var BellOff = function BellOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18.63 13A17.888 17.888 0 0118 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var BellOff = function BellOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6.26 6.26A5.86 5.86 0 006 8c0 7-3 9-3 9h14',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var BellOff = function BellOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 8a6 6 0 00-9.33-5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var BellOff = function BellOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 2l20 20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

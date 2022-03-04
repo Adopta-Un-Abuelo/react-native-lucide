@@ -40,7 +40,7 @@ var Navigation2 = function Navigation2(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '12 2 19 21 12 17 5 21 12 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

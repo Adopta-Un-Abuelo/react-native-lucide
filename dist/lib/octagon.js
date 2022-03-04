@@ -40,7 +40,7 @@ var Octagon = function Octagon(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polygon, {
       points: '7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

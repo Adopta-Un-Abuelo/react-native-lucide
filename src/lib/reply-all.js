@@ -35,7 +35,7 @@ const ReplyAll = props => {
     >
       <Polyline
         points="7 17 2 12 7 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ReplyAll = props => {
       />
       <Polyline
         points="12 17 7 12 12 7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const ReplyAll = props => {
       />
       <Path
         d="M22 18v-2a4 4 0 00-4-4H7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

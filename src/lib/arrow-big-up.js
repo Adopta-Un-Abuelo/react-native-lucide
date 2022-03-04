@@ -35,7 +35,7 @@ const ArrowBigUp = props => {
     >
       <Path
         d="M9 21V10H5l7-7 7 7h-4v11z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

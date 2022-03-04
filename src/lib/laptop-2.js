@@ -40,7 +40,7 @@ const Laptop2 = props => {
         height="12"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Laptop2 = props => {
         y1="20"
         x2="22"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

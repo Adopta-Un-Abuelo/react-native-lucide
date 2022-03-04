@@ -37,7 +37,7 @@ const Currency = props => {
         cx="12"
         cy="12"
         r="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Currency = props => {
         y1="3"
         x2="6"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Currency = props => {
         y1="3"
         x2="18"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -70,7 +70,7 @@ const Currency = props => {
         y1="21"
         x2="6"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -81,7 +81,7 @@ const Currency = props => {
         y1="21"
         x2="18"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

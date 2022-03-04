@@ -40,7 +40,7 @@ var MoveDiagonal = function MoveDiagonal(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '13 5 19 5 19 11',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var MoveDiagonal = function MoveDiagonal(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '11 19 5 19 5 13',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var MoveDiagonal = function MoveDiagonal(props) {
       y1: '5',
       x2: '5',
       y2: '19',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -40,7 +40,7 @@ var ChevronsLeft = function ChevronsLeft(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '11 17 6 12 11 7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ChevronsLeft = function ChevronsLeft(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '18 17 13 12 18 7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

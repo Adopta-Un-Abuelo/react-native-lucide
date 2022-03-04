@@ -38,7 +38,7 @@ const LayoutList = props => {
         y="14"
         width="7"
         height="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const LayoutList = props => {
         y="3"
         width="7"
         height="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const LayoutList = props => {
         y1="4"
         x2="21"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const LayoutList = props => {
         y1="9"
         x2="21"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -82,7 +82,7 @@ const LayoutList = props => {
         y1="15"
         x2="21"
         y2="15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -93,7 +93,7 @@ const LayoutList = props => {
         y1="20"
         x2="21"
         y2="20"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

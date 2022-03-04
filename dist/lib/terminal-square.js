@@ -40,7 +40,7 @@ var TerminalSquare = function TerminalSquare(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 11l2-2-2-2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var TerminalSquare = function TerminalSquare(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M11 13h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -61,7 +61,7 @@ var TerminalSquare = function TerminalSquare(props) {
       height: '18',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

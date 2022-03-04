@@ -40,7 +40,7 @@ var Sunset = function Sunset(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 10V2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5.2 11.2l1.4 1.4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 18h2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M20 18h2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17.4 12.6l1.4-1.4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -80,7 +80,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 22H2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -88,7 +88,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 6l-4 4-4-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -96,7 +96,7 @@ var Sunset = function Sunset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 18a4 4 0 00-8 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

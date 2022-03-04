@@ -37,7 +37,7 @@ const Aperture = props => {
         cx="12"
         cy="12"
         r="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Aperture = props => {
         y1="8"
         x2="20.05"
         y2="17.94"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const Aperture = props => {
         y1="8"
         x2="21.17"
         y2="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -70,7 +70,7 @@ const Aperture = props => {
         y1="12"
         x2="13.12"
         y2="2.06"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -81,7 +81,7 @@ const Aperture = props => {
         y1="16"
         x2="3.95"
         y2="6.06"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -92,7 +92,7 @@ const Aperture = props => {
         y1="16"
         x2="2.83"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -103,7 +103,7 @@ const Aperture = props => {
         y1="12"
         x2="10.88"
         y2="21.94"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

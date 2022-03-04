@@ -38,7 +38,7 @@ const Pause = props => {
         y="4"
         width="4"
         height="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Pause = props => {
         y="4"
         width="4"
         height="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -40,7 +40,7 @@ var Loader2 = function Loader2(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 12a9 9 0 11-6.219-8.56',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -40,7 +40,7 @@ var Wifi = function Wifi(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5 13a10 10 0 0114 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Wifi = function Wifi(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M8.5 16.5a5 5 0 017 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Wifi = function Wifi(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 8.82a15 15 0 0120 0',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -67,7 +67,7 @@ var Wifi = function Wifi(props) {
       y1: '20',
       x2: '12.01',
       y2: '20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

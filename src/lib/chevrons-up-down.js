@@ -35,7 +35,7 @@ const ChevronsUpDown = props => {
     >
       <Path
         d="M7 15l5 5 5-5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const ChevronsUpDown = props => {
       />
       <Path
         d="M7 9l5-5 5 5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

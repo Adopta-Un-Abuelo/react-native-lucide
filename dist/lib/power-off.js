@@ -40,7 +40,7 @@ var PowerOff = function PowerOff(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18.36 6.64A9 9 0 0120.77 15M5.63 6.64A9 9 0 1018.706 19',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var PowerOff = function PowerOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 2v4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var PowerOff = function PowerOff(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M2 2l20 20',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

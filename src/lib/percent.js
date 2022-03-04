@@ -38,7 +38,7 @@ const Percent = props => {
         y1="5"
         x2="5"
         y2="19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Percent = props => {
         cx="6.5"
         cy="6.5"
         r="2.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const Percent = props => {
         cx="17.5"
         cy="17.5"
         r="2.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

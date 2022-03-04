@@ -35,7 +35,7 @@ const Share = props => {
     >
       <Path
         d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Share = props => {
       />
       <Polyline
         points="16 6 12 2 8 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const Share = props => {
         y1="2"
         x2="12"
         y2="15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

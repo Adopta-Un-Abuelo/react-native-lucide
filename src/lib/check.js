@@ -35,7 +35,7 @@ const Check = props => {
     >
       <Polyline
         points="20 6 9 17 4 12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

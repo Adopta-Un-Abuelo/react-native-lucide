@@ -39,7 +39,7 @@ const Calculator = props => {
         width="16"
         height="20"
         rx="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -50,7 +50,7 @@ const Calculator = props => {
         x2="16"
         y1="6"
         y2="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -61,7 +61,7 @@ const Calculator = props => {
         x2="16"
         y1="14"
         y2="18"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -69,7 +69,7 @@ const Calculator = props => {
       />
       <Path
         d="M16 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -77,7 +77,7 @@ const Calculator = props => {
       />
       <Path
         d="M12 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -85,7 +85,7 @@ const Calculator = props => {
       />
       <Path
         d="M8 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -93,7 +93,7 @@ const Calculator = props => {
       />
       <Path
         d="M12 14h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -101,7 +101,7 @@ const Calculator = props => {
       />
       <Path
         d="M8 14h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -109,7 +109,7 @@ const Calculator = props => {
       />
       <Path
         d="M12 18h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -117,7 +117,7 @@ const Calculator = props => {
       />
       <Path
         d="M8 18h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -37,7 +37,7 @@ const MoreHorizontal = props => {
         cx="12"
         cy="12"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const MoreHorizontal = props => {
         cx="19"
         cy="12"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -57,7 +57,7 @@ const MoreHorizontal = props => {
         cx="5"
         cy="12"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

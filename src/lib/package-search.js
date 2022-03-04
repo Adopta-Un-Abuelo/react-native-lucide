@@ -35,7 +35,7 @@ const PackageSearch = props => {
     >
       <Path
         d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const PackageSearch = props => {
       />
       <Path
         d="M16.5 9.4 7.55 4.24"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const PackageSearch = props => {
       />
       <Path
         d="M12 12v10M3.29 7 12 12 3.29 7ZM12 12l8.71-5L12 12Z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -61,7 +61,7 @@ const PackageSearch = props => {
         cx="18.5"
         cy="15.5"
         r="2.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -69,7 +69,7 @@ const PackageSearch = props => {
       />
       <Path
         d="M20.27 17.27 22 19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

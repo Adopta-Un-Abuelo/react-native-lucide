@@ -40,7 +40,7 @@ var SortDesc = function SortDesc(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M11 5h10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var SortDesc = function SortDesc(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M11 9h7',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var SortDesc = function SortDesc(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M11 13h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var SortDesc = function SortDesc(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3 17l3 3 3-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var SortDesc = function SortDesc(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 18V4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

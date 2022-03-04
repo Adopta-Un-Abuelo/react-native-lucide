@@ -35,7 +35,7 @@ const Eye = props => {
     >
       <Path
         d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const Eye = props => {
         cx="12"
         cy="12"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

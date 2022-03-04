@@ -37,7 +37,7 @@ const PersonStanding = props => {
         cx="12"
         cy="5"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -45,7 +45,7 @@ const PersonStanding = props => {
       />
       <Path
         d="M9 20l3-6 3 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -53,7 +53,7 @@ const PersonStanding = props => {
       />
       <Path
         d="M6 8l6 2 6-2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -61,7 +61,7 @@ const PersonStanding = props => {
       />
       <Path
         d="M12 10v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

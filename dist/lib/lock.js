@@ -45,7 +45,7 @@ var Lock = function Lock(props) {
       height: '11',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var Lock = function Lock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 11V7a5 5 0 0110 0v4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

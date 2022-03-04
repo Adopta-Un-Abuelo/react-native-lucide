@@ -42,7 +42,7 @@ var AlarmClock = function AlarmClock(props) {
       cx: '12',
       cy: '13',
       r: '8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var AlarmClock = function AlarmClock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 9v4l2 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -58,7 +58,7 @@ var AlarmClock = function AlarmClock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M5 3L2 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -66,7 +66,7 @@ var AlarmClock = function AlarmClock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M22 6l-3-3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -74,7 +74,7 @@ var AlarmClock = function AlarmClock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 19l-2 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -82,7 +82,7 @@ var AlarmClock = function AlarmClock(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 19l2 2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

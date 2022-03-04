@@ -40,7 +40,7 @@ var LayoutTemplate = function LayoutTemplate(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 3H3v7h18V3z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var LayoutTemplate = function LayoutTemplate(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 14h-5v7h5v-7z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var LayoutTemplate = function LayoutTemplate(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 14H3v7h9v-7z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

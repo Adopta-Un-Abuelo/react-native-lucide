@@ -35,7 +35,7 @@ const SkipForward = props => {
     >
       <Polygon
         points="5 4 15 12 5 20 5 4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const SkipForward = props => {
         y1="5"
         x2="19"
         y2="19"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

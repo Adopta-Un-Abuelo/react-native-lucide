@@ -37,7 +37,7 @@ const ZoomOut = props => {
         cx="11"
         cy="11"
         r="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const ZoomOut = props => {
         y1="21"
         x2="16.65"
         y2="16.65"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const ZoomOut = props => {
         y1="11"
         x2="14"
         y2="11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -40,7 +40,7 @@ var Regex = function Regex(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 3v10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var Regex = function Regex(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12.67 5.5l8.66 5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var Regex = function Regex(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12.67 10.5l8.66-5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var Regex = function Regex(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 17a2 2 0 00-2-2H5a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

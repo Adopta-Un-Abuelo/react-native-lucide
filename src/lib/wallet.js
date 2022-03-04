@@ -35,7 +35,7 @@ const Wallet = props => {
     >
       <Path
         d="M20 12V8H6a2 2 0 01-2-2c0-1.1.9-2 2-2h12v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Wallet = props => {
       />
       <Path
         d="M4 6v12c0 1.1.9 2 2 2h14v-4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Wallet = props => {
       />
       <Path
         d="M18 12a2 2 0 00-2 2c0 1.1.9 2 2 2h4v-4h-4z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

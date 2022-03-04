@@ -37,7 +37,7 @@ const Search = props => {
         cx="11"
         cy="11"
         r="8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Search = props => {
         y1="21"
         x2="16.65"
         y2="16.65"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

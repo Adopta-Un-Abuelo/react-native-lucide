@@ -40,7 +40,7 @@ var ExternalLink = function ExternalLink(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ExternalLink = function ExternalLink(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '15 3 21 3 21 9',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -59,7 +59,7 @@ var ExternalLink = function ExternalLink(props) {
       y1: '14',
       x2: '21',
       y2: '3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

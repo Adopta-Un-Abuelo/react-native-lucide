@@ -40,7 +40,7 @@ var ChevronFirst = function ChevronFirst(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Polyline, {
       points: '17 18 11 12 17 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ChevronFirst = function ChevronFirst(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7 6v12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

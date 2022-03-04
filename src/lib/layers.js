@@ -35,7 +35,7 @@ const Layers = props => {
     >
       <Polygon
         points="12 2 2 7 12 12 22 7 12 2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Layers = props => {
       />
       <Polyline
         points="2 17 12 22 22 17"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Layers = props => {
       />
       <Polyline
         points="2 12 12 17 22 12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

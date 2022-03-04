@@ -35,7 +35,7 @@ const Redo = props => {
     >
       <Path
         d="M21 7v6h-6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Redo = props => {
       />
       <Path
         d="M3 17a9 9 0 019-9 9 9 0 016 2.3l3 2.7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

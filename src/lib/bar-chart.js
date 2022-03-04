@@ -38,7 +38,7 @@ const BarChart = props => {
         y1="20"
         x2="12"
         y2="10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const BarChart = props => {
         y1="20"
         x2="18"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const BarChart = props => {
         y1="20"
         x2="6"
         y2="16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

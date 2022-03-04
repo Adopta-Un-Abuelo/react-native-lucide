@@ -35,7 +35,7 @@ const MousePointer = props => {
     >
       <Path
         d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const MousePointer = props => {
       />
       <Path
         d="M13 13l6 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

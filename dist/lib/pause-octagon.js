@@ -40,7 +40,7 @@ var PauseOctagon = function PauseOctagon(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 15V9',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var PauseOctagon = function PauseOctagon(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M14 15V9',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var PauseOctagon = function PauseOctagon(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M7.714 2h8.572L22 7.714v8.572L16.286 22H7.714L2 16.286V7.714L7.714 2z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

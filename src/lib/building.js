@@ -40,7 +40,7 @@ const Building = props => {
         height="20"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -48,7 +48,7 @@ const Building = props => {
       />
       <Path
         d="M9 22v-4h6v4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -56,7 +56,7 @@ const Building = props => {
       />
       <Path
         d="M8 6h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -64,7 +64,7 @@ const Building = props => {
       />
       <Path
         d="M16 6h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -72,7 +72,7 @@ const Building = props => {
       />
       <Path
         d="M12 6h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -80,7 +80,7 @@ const Building = props => {
       />
       <Path
         d="M12 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -88,7 +88,7 @@ const Building = props => {
       />
       <Path
         d="M12 14h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -96,7 +96,7 @@ const Building = props => {
       />
       <Path
         d="M16 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -104,7 +104,7 @@ const Building = props => {
       />
       <Path
         d="M16 14h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -112,7 +112,7 @@ const Building = props => {
       />
       <Path
         d="M8 10h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -120,7 +120,7 @@ const Building = props => {
       />
       <Path
         d="M8 14h.01"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

@@ -40,7 +40,7 @@ var MountainSnow = function MountainSnow(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M8 3l4 8 5-5 5 15H2L8 3z',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var MountainSnow = function MountainSnow(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

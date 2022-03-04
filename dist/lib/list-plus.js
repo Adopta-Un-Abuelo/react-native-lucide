@@ -40,7 +40,7 @@ var ListPlus = function ListPlus(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M11 12H3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var ListPlus = function ListPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 6H3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var ListPlus = function ListPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 18H3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var ListPlus = function ListPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M18 9v6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var ListPlus = function ListPlus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 12h-6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

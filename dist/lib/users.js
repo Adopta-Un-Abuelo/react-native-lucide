@@ -40,7 +40,7 @@ var Users = function Users(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var Users = function Users(props) {
       cx: '9',
       cy: '7',
       r: '4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -58,7 +58,7 @@ var Users = function Users(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M23 21v-2a4 4 0 00-3-3.87',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -66,7 +66,7 @@ var Users = function Users(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 3.13a4 4 0 010 7.75',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

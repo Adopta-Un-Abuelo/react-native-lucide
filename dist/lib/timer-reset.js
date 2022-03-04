@@ -40,7 +40,7 @@ var TimerReset = function TimerReset(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M10 2h4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var TimerReset = function TimerReset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 14v-4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var TimerReset = function TimerReset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M4 13a8 8 0 018-7 8 8 0 11-5.3 14L4 17.6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var TimerReset = function TimerReset(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 17H4v5',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

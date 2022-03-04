@@ -40,7 +40,7 @@ const Image = props => {
         height="18"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -50,7 +50,7 @@ const Image = props => {
         cx="8.5"
         cy="8.5"
         r="1.5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -58,7 +58,7 @@ const Image = props => {
       />
       <Polyline
         points="21 15 16 10 5 21"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

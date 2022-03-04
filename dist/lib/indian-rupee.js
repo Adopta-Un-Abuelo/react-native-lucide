@@ -40,7 +40,7 @@ var IndianRupee = function IndianRupee(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 3h12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var IndianRupee = function IndianRupee(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 8h12',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var IndianRupee = function IndianRupee(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 13l8.5 8',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var IndianRupee = function IndianRupee(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 13h3',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -72,7 +72,7 @@ var IndianRupee = function IndianRupee(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 13c6.667 0 6.667-10 0-10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

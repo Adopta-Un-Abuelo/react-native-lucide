@@ -37,7 +37,7 @@ const GitMerge = props => {
         cx="18"
         cy="18"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -47,7 +47,7 @@ const GitMerge = props => {
         cx="6"
         cy="6"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -55,7 +55,7 @@ const GitMerge = props => {
       />
       <Path
         d="M6 21V9a9 9 0 009 9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

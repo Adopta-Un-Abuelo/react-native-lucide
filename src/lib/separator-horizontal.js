@@ -38,7 +38,7 @@ const SeparatorHorizontal = props => {
         y1="12"
         x2="21"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -46,7 +46,7 @@ const SeparatorHorizontal = props => {
       />
       <Polyline
         points="8 8 12 4 16 8"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -54,7 +54,7 @@ const SeparatorHorizontal = props => {
       />
       <Polyline
         points="16 16 12 20 8 16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

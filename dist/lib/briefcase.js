@@ -45,7 +45,7 @@ var Briefcase = function Briefcase(props) {
       height: '14',
       rx: '2',
       ry: '2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -53,7 +53,7 @@ var Briefcase = function Briefcase(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

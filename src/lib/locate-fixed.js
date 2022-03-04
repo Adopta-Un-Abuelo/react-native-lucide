@@ -38,7 +38,7 @@ const LocateFixed = props => {
         x2="5"
         y1="12"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const LocateFixed = props => {
         x2="22"
         y1="12"
         y2="12"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -60,7 +60,7 @@ const LocateFixed = props => {
         x2="12"
         y1="2"
         y2="5"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -71,7 +71,7 @@ const LocateFixed = props => {
         x2="12"
         y1="19"
         y2="22"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -81,7 +81,7 @@ const LocateFixed = props => {
         cx="12"
         cy="12"
         r="7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -91,7 +91,7 @@ const LocateFixed = props => {
         cx="12"
         cy="12"
         r="3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

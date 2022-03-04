@@ -35,7 +35,7 @@ const Navigation = props => {
     >
       <Polygon
         points="3 11 22 2 13 21 11 13 3 11"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

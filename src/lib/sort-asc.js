@@ -35,7 +35,7 @@ const SortAsc = props => {
     >
       <Path
         d="M11 5h4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const SortAsc = props => {
       />
       <Path
         d="M11 9h7"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const SortAsc = props => {
       />
       <Path
         d="M11 13h10"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -59,7 +59,7 @@ const SortAsc = props => {
       />
       <Path
         d="M3 17l3 3 3-3"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -67,7 +67,7 @@ const SortAsc = props => {
       />
       <Path
         d="M6 18V4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

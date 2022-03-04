@@ -35,7 +35,7 @@ const Rss = props => {
     >
       <Path
         d="M4 11a9 9 0 019 9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -43,7 +43,7 @@ const Rss = props => {
       />
       <Path
         d="M4 4a16 16 0 0116 16"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -53,7 +53,7 @@ const Rss = props => {
         cx="5"
         cy="19"
         r="1"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

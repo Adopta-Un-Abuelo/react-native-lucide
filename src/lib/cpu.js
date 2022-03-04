@@ -40,7 +40,7 @@ const Cpu = props => {
         height="16"
         rx="2"
         ry="2"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -51,7 +51,7 @@ const Cpu = props => {
         y="9"
         width="6"
         height="6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -62,7 +62,7 @@ const Cpu = props => {
         y1="1"
         x2="9"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -73,7 +73,7 @@ const Cpu = props => {
         y1="1"
         x2="15"
         y2="4"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -84,7 +84,7 @@ const Cpu = props => {
         y1="20"
         x2="9"
         y2="23"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -95,7 +95,7 @@ const Cpu = props => {
         y1="20"
         x2="15"
         y2="23"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -106,7 +106,7 @@ const Cpu = props => {
         y1="9"
         x2="23"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -117,7 +117,7 @@ const Cpu = props => {
         y1="14"
         x2="23"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -128,7 +128,7 @@ const Cpu = props => {
         y1="9"
         x2="4"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -139,7 +139,7 @@ const Cpu = props => {
         y1="14"
         x2="4"
         y2="14"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

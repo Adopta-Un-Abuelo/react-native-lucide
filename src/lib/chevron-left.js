@@ -35,7 +35,7 @@ const ChevronLeft = props => {
     >
       <Polyline
         points="15 18 9 12 15 6"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

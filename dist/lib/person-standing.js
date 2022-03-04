@@ -42,7 +42,7 @@ var PersonStanding = function PersonStanding(props) {
       cx: '12',
       cy: '5',
       r: '1',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -50,7 +50,7 @@ var PersonStanding = function PersonStanding(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M9 20l3-6 3 6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -58,7 +58,7 @@ var PersonStanding = function PersonStanding(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M6 8l6 2 6-2',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -66,7 +66,7 @@ var PersonStanding = function PersonStanding(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M12 10v4',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',

@@ -38,7 +38,7 @@ const Equal = props => {
         y1="9"
         x2="19"
         y2="9"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"
@@ -49,7 +49,7 @@ const Equal = props => {
         y1="15"
         x2="19"
         y2="15"
-        fill="none"
+        fill={fill}
         stroke={color}
         strokeWidth="2"
         strokeLinecap="round"

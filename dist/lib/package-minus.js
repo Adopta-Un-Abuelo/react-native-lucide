@@ -40,7 +40,7 @@ var PackageMinus = function PackageMinus(props) {
     }, otherProps),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16 16h6',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -48,7 +48,7 @@ var PackageMinus = function PackageMinus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -56,7 +56,7 @@ var PackageMinus = function PackageMinus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M16.5 9.4 7.55 4.24',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
@@ -64,7 +64,7 @@ var PackageMinus = function PackageMinus(props) {
     }),
     _react2.default.createElement(_reactNativeSvg.Path, {
       d: 'M3.29 7 12 12m0 0 8.71-5M12 12v10',
-      fill: 'none',
+      fill: fill,
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
