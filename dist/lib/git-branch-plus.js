@@ -24,7 +24,8 @@ var GitBranchPlus = function GitBranchPlus(props) {
   var color = props.color,
       size = props.size,
       fill = props.fill,
-      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill']);
+      strokeWidth = props.strokeWidth,
+      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill', 'strokeWidth']);
 
   return _react2.default.createElement(
     _reactNativeSvg.Svg,
@@ -34,7 +35,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       viewBox: '0 0 24 24',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
@@ -42,7 +43,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       d: 'M6 3v12',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -50,7 +51,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       d: 'M18 9a3 3 0 100-6 3 3 0 000 6z',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -58,7 +59,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       d: 'M6 21a3 3 0 100-6 3 3 0 000 6z',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -66,7 +67,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       d: 'M15 6a9 9 0 00-9 9',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -74,7 +75,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       d: 'M18 15v6',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -82,7 +83,7 @@ var GitBranchPlus = function GitBranchPlus(props) {
       d: 'M21 18h-6',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     })
@@ -92,13 +93,15 @@ var GitBranchPlus = function GitBranchPlus(props) {
 GitBranchPlus.propTypes = {
   color: _propTypes2.default.string,
   fill: _propTypes2.default.string,
+  strokeWidth: _propTypes2.default.string,
   size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 GitBranchPlus.defaultProps = {
   color: 'black',
   size: '24',
-  fill: 'none'
+  fill: 'none',
+  strokeWidth: '1'
 };
 
 exports.default = GitBranchPlus;

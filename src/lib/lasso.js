@@ -20,7 +20,7 @@ import {
 } from 'react-native-svg';
 
 const Lasso = props => {
-  const { color, size, fill, ...otherProps } = props;
+  const { color, size, fill, strokeWidth, ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -28,7 +28,7 @@ const Lasso = props => {
       viewBox="0 0 24 24"
       fill={fill}
       stroke={color}
-      strokeWidth="2"
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
@@ -37,7 +37,7 @@ const Lasso = props => {
         d="M7 22a5 5 0 01-2-4"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -45,7 +45,7 @@ const Lasso = props => {
         d="M3.3 14A6.8 6.8 0 012 10c0-4.4 4.5-8 10-8s10 3.6 10 8-4.5 8-10 8a12 12 0 01-5-1"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -53,7 +53,7 @@ const Lasso = props => {
         d="M5 18a2 2 0 100-4 2 2 0 000 4z"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -64,6 +64,7 @@ const Lasso = props => {
 Lasso.propTypes = {
   color: PropTypes.string,
   fill: PropTypes.string,
+  strokeWidth: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
@@ -71,6 +72,7 @@ Lasso.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
+  strokeWidth: '1',
 };
 
 export default Lasso;

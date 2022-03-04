@@ -20,7 +20,7 @@ import {
 } from 'react-native-svg';
 
 const Airplay = props => {
-  const { color, size, fill, ...otherProps } = props;
+  const { color, size, fill, strokeWidth, ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -28,7 +28,7 @@ const Airplay = props => {
       viewBox="0 0 24 24"
       fill={fill}
       stroke={color}
-      strokeWidth="2"
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
@@ -37,7 +37,7 @@ const Airplay = props => {
         d="M5 17H4a2 2 0 01-2-2V5a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2h-1"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -45,7 +45,7 @@ const Airplay = props => {
         points="12 15 17 21 7 21 12 15"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -56,6 +56,7 @@ const Airplay = props => {
 Airplay.propTypes = {
   color: PropTypes.string,
   fill: PropTypes.string,
+  strokeWidth: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
@@ -63,6 +64,7 @@ Airplay.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
+  strokeWidth: '1',
 };
 
 export default Airplay;

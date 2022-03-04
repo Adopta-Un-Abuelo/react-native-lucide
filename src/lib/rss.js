@@ -20,7 +20,7 @@ import {
 } from 'react-native-svg';
 
 const Rss = props => {
-  const { color, size, fill, ...otherProps } = props;
+  const { color, size, fill, strokeWidth, ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -28,7 +28,7 @@ const Rss = props => {
       viewBox="0 0 24 24"
       fill={fill}
       stroke={color}
-      strokeWidth="2"
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
@@ -37,7 +37,7 @@ const Rss = props => {
         d="M4 11a9 9 0 019 9"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -45,7 +45,7 @@ const Rss = props => {
         d="M4 4a16 16 0 0116 16"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -55,7 +55,7 @@ const Rss = props => {
         r="1"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -66,6 +66,7 @@ const Rss = props => {
 Rss.propTypes = {
   color: PropTypes.string,
   fill: PropTypes.string,
+  strokeWidth: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
@@ -73,6 +74,7 @@ Rss.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
+  strokeWidth: '1',
 };
 
 export default Rss;

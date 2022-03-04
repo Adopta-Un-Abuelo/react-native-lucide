@@ -20,7 +20,7 @@ import {
 } from 'react-native-svg';
 
 const UserPlus = props => {
-  const { color, size, fill, ...otherProps } = props;
+  const { color, size, fill, strokeWidth, ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -28,7 +28,7 @@ const UserPlus = props => {
       viewBox="0 0 24 24"
       fill={fill}
       stroke={color}
-      strokeWidth="2"
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
@@ -37,7 +37,7 @@ const UserPlus = props => {
         d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -47,7 +47,7 @@ const UserPlus = props => {
         r="4"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -58,7 +58,7 @@ const UserPlus = props => {
         y2="14"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -69,7 +69,7 @@ const UserPlus = props => {
         y2="11"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -80,6 +80,7 @@ const UserPlus = props => {
 UserPlus.propTypes = {
   color: PropTypes.string,
   fill: PropTypes.string,
+  strokeWidth: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
@@ -87,6 +88,7 @@ UserPlus.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
+  strokeWidth: '1',
 };
 
 export default UserPlus;

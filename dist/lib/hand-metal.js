@@ -24,7 +24,8 @@ var HandMetal = function HandMetal(props) {
   var color = props.color,
       size = props.size,
       fill = props.fill,
-      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill']);
+      strokeWidth = props.strokeWidth,
+      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill', 'strokeWidth']);
 
   return _react2.default.createElement(
     _reactNativeSvg.Svg,
@@ -34,7 +35,7 @@ var HandMetal = function HandMetal(props) {
       viewBox: '0 0 24 24',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
@@ -42,7 +43,7 @@ var HandMetal = function HandMetal(props) {
       d: 'M18 12.5V10a2 2 0 00-2-2v0a2 2 0 00-2 2v1.4',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -50,7 +51,7 @@ var HandMetal = function HandMetal(props) {
       d: 'M14 11V9a2 2 0 10-4 0v2',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -58,7 +59,7 @@ var HandMetal = function HandMetal(props) {
       d: 'M10 10.5V5a2 2 0 10-4 0v9',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -66,7 +67,7 @@ var HandMetal = function HandMetal(props) {
       d: 'M7 15l-1.76-1.76a2 2 0 00-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 008-8V7a2 2 0 10-4 0v5',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     })
@@ -76,13 +77,15 @@ var HandMetal = function HandMetal(props) {
 HandMetal.propTypes = {
   color: _propTypes2.default.string,
   fill: _propTypes2.default.string,
+  strokeWidth: _propTypes2.default.string,
   size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 HandMetal.defaultProps = {
   color: 'black',
   size: '24',
-  fill: 'none'
+  fill: 'none',
+  strokeWidth: '1'
 };
 
 exports.default = HandMetal;

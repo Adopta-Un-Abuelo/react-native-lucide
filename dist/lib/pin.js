@@ -24,7 +24,8 @@ var Pin = function Pin(props) {
   var color = props.color,
       size = props.size,
       fill = props.fill,
-      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill']);
+      strokeWidth = props.strokeWidth,
+      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill', 'strokeWidth']);
 
   return _react2.default.createElement(
     _reactNativeSvg.Svg,
@@ -34,7 +35,7 @@ var Pin = function Pin(props) {
       viewBox: '0 0 24 24',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
@@ -42,7 +43,7 @@ var Pin = function Pin(props) {
       d: 'M12 21v-7',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -50,7 +51,7 @@ var Pin = function Pin(props) {
       d: 'M9 3v5l-2 4v2h10m0 0h-5m5 0v-2l-2-4V3',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -58,7 +59,7 @@ var Pin = function Pin(props) {
       d: 'M7 3h10',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     })
@@ -68,13 +69,15 @@ var Pin = function Pin(props) {
 Pin.propTypes = {
   color: _propTypes2.default.string,
   fill: _propTypes2.default.string,
+  strokeWidth: _propTypes2.default.string,
   size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 Pin.defaultProps = {
   color: 'black',
   size: '24',
-  fill: 'none'
+  fill: 'none',
+  strokeWidth: '1'
 };
 
 exports.default = Pin;

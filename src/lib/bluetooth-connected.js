@@ -20,7 +20,7 @@ import {
 } from 'react-native-svg';
 
 const BluetoothConnected = props => {
-  const { color, size, fill, ...otherProps } = props;
+  const { color, size, fill, strokeWidth, ...otherProps } = props;
   return (
     <Svg
       width={size}
@@ -28,7 +28,7 @@ const BluetoothConnected = props => {
       viewBox="0 0 24 24"
       fill={fill}
       stroke={color}
-      strokeWidth="2"
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...otherProps}
@@ -37,7 +37,7 @@ const BluetoothConnected = props => {
         d="M7 7l10 10-5 5V2l5 5L7 17"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -48,7 +48,7 @@ const BluetoothConnected = props => {
         x2="21"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -59,7 +59,7 @@ const BluetoothConnected = props => {
         x2="6"
         fill={fill}
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -70,6 +70,7 @@ const BluetoothConnected = props => {
 BluetoothConnected.propTypes = {
   color: PropTypes.string,
   fill: PropTypes.string,
+  strokeWidth: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
@@ -77,6 +78,7 @@ BluetoothConnected.defaultProps = {
   color: 'black',
   size: '24',
   fill: 'none',
+  strokeWidth: '1',
 };
 
 export default BluetoothConnected;

@@ -24,7 +24,8 @@ var TextCursor = function TextCursor(props) {
   var color = props.color,
       size = props.size,
       fill = props.fill,
-      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill']);
+      strokeWidth = props.strokeWidth,
+      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill', 'strokeWidth']);
 
   return _react2.default.createElement(
     _reactNativeSvg.Svg,
@@ -34,7 +35,7 @@ var TextCursor = function TextCursor(props) {
       viewBox: '0 0 24 24',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
@@ -42,7 +43,7 @@ var TextCursor = function TextCursor(props) {
       d: 'M17 22h-1a4 4 0 01-4-4V6a4 4 0 014-4h1',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -50,7 +51,7 @@ var TextCursor = function TextCursor(props) {
       d: 'M7 22h1a4 4 0 004-4v-1',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -58,7 +59,7 @@ var TextCursor = function TextCursor(props) {
       d: 'M7 2h1a4 4 0 014 4v1',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     })
@@ -68,13 +69,15 @@ var TextCursor = function TextCursor(props) {
 TextCursor.propTypes = {
   color: _propTypes2.default.string,
   fill: _propTypes2.default.string,
+  strokeWidth: _propTypes2.default.string,
   size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 TextCursor.defaultProps = {
   color: 'black',
   size: '24',
-  fill: 'none'
+  fill: 'none',
+  strokeWidth: '1'
 };
 
 exports.default = TextCursor;

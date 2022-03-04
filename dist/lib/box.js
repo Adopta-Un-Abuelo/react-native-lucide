@@ -24,7 +24,8 @@ var Box = function Box(props) {
   var color = props.color,
       size = props.size,
       fill = props.fill,
-      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill']);
+      strokeWidth = props.strokeWidth,
+      otherProps = _objectWithoutProperties(props, ['color', 'size', 'fill', 'strokeWidth']);
 
   return _react2.default.createElement(
     _reactNativeSvg.Svg,
@@ -34,7 +35,7 @@ var Box = function Box(props) {
       viewBox: '0 0 24 24',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }, otherProps),
@@ -42,7 +43,7 @@ var Box = function Box(props) {
       d: 'M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -50,7 +51,7 @@ var Box = function Box(props) {
       points: '3.27 6.96 12 12.01 20.73 6.96',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     }),
@@ -61,7 +62,7 @@ var Box = function Box(props) {
       y2: '12',
       fill: fill,
       stroke: color,
-      strokeWidth: '2',
+      strokeWidth: strokeWidth,
       strokeLinecap: 'round',
       strokeLinejoin: 'round'
     })
@@ -71,13 +72,15 @@ var Box = function Box(props) {
 Box.propTypes = {
   color: _propTypes2.default.string,
   fill: _propTypes2.default.string,
+  strokeWidth: _propTypes2.default.string,
   size: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number])
 };
 
 Box.defaultProps = {
   color: 'black',
   size: '24',
-  fill: 'none'
+  fill: 'none',
+  strokeWidth: '1'
 };
 
 exports.default = Box;

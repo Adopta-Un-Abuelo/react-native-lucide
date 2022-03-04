@@ -79,12 +79,13 @@ glob(`${rootDir}/src/lucide/**.svg`, (err, icons) => {
       } from 'react-native-svg';
 
       const ${uppercamelcase(id)} = (props) => {
-        const { color, size, fill, ...otherProps } = props;
+        const { color, size, fill, strokeWidth, ...otherProps } = props;
         return (
           ${
       $('svg').toString()
         .replace(new RegExp('stroke="currentColor"', 'g'), 'stroke={color}')
         .replace(new RegExp('fill="none"', 'g'), 'fill={fill}')
+        .replace(new RegExp('strokeWidth="2"', 'g'), 'strokeWidth={strokeWidth}')
         .replace('width="24"', 'width={size}')
         .replace('height="24"', 'height={size}')
         .replace('otherProps="..."', '{...otherProps}')
@@ -128,6 +129,7 @@ glob(`${rootDir}/src/lucide/**.svg`, (err, icons) => {
       ${uppercamelcase(id)}.propTypes = {
         color: PropTypes.string,
         fill: PropTypes.string,
+        strokeWidth: PropTypes.string,
         size: PropTypes.oneOfType([
           PropTypes.string,
           PropTypes.number
@@ -137,7 +139,8 @@ glob(`${rootDir}/src/lucide/**.svg`, (err, icons) => {
       ${uppercamelcase(id)}.defaultProps = {
         color: 'black',
         size: '24',
-        fill: 'none'
+        fill: 'none',
+        strokeWidth: '1'
       }
 
       export default ${uppercamelcase(id)}
