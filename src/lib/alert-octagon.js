@@ -20,13 +20,13 @@ import {
 } from 'react-native-svg';
 
 const AlertOctagon = props => {
-  const { color, size, ...otherProps } = props;
+  const { color, size, fill, ...otherProps } = props;
   return (
     <Svg
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      fill={fill}
       stroke={color}
       strokeWidth="2"
       strokeLinecap="round"
@@ -69,12 +69,14 @@ const AlertOctagon = props => {
 
 AlertOctagon.propTypes = {
   color: PropTypes.string,
+  fill: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 AlertOctagon.defaultProps = {
   color: 'black',
   size: '24',
+  fill: 'none',
 };
 
 export default AlertOctagon;

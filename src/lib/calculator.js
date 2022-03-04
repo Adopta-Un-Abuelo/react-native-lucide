@@ -20,13 +20,13 @@ import {
 } from 'react-native-svg';
 
 const Calculator = props => {
-  const { color, size, ...otherProps } = props;
+  const { color, size, fill, ...otherProps } = props;
   return (
     <Svg
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      fill={fill}
       stroke={color}
       strokeWidth="2"
       strokeLinecap="round"
@@ -129,12 +129,14 @@ const Calculator = props => {
 
 Calculator.propTypes = {
   color: PropTypes.string,
+  fill: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 Calculator.defaultProps = {
   color: 'black',
   size: '24',
+  fill: 'none',
 };
 
 export default Calculator;

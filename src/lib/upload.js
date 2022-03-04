@@ -20,13 +20,13 @@ import {
 } from 'react-native-svg';
 
 const Upload = props => {
-  const { color, size, ...otherProps } = props;
+  const { color, size, fill, ...otherProps } = props;
   return (
     <Svg
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      fill={fill}
       stroke={color}
       strokeWidth="2"
       strokeLinecap="round"
@@ -66,12 +66,14 @@ const Upload = props => {
 
 Upload.propTypes = {
   color: PropTypes.string,
+  fill: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 Upload.defaultProps = {
   color: 'black',
   size: '24',
+  fill: 'none',
 };
 
 export default Upload;

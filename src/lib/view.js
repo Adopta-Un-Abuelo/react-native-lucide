@@ -20,13 +20,13 @@ import {
 } from 'react-native-svg';
 
 const View = props => {
-  const { color, size, ...otherProps } = props;
+  const { color, size, fill, ...otherProps } = props;
   return (
     <Svg
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      fill={fill}
       stroke={color}
       strokeWidth="2"
       strokeLinecap="round"
@@ -63,12 +63,14 @@ const View = props => {
 
 View.propTypes = {
   color: PropTypes.string,
+  fill: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 View.defaultProps = {
   color: 'black',
   size: '24',
+  fill: 'none',
 };
 
 export default View;
